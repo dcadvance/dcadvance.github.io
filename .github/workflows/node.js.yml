@@ -1,11 +1,12 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+# @see https://github.com/marketplace/actions/vuepress-deploy
 
-name: GitHub Actions blog
+name: GitHub Pages Actions
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -13,10 +14,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
 
-      - name: Build and Deploy
-        uses: JamesIves/github-pages-deploy-action@master
+      - name: vuepress-deploy
+        uses: jenkey2011/vuepress-deploy@master
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: dist
+          TARGET_BRANCH: gh-pages
           BUILD_SCRIPT: npm install && npm run build
+          BUILD_DIR: dist
