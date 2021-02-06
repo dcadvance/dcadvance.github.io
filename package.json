@@ -13,13 +13,19 @@
     "type": "git",
     "url": "git+https://github.com/dcadvance/dcadvance.github.io.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/dcadvance/dcadvance.github.io/issues"
   },
   "homepage": "https://github.com/dcadvance/dcadvance.github.io#readme",
   "devDependencies": {
+    "husky": "^4.3.8",
     "vuepress": "^1.8.0"
-  }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "./hooks/pre-commit.sh"
+    }
+  },
+  "author": "",
+  "license": "ISC"
 }
