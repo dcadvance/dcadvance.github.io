@@ -7,7 +7,9 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "build": "vuepress build src",
+    "pub": "git add . && git commit -m 'update docs' && git push",
+    "test": ""
   },
   "repository": {
     "type": "git",
