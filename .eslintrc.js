@@ -6,13 +6,13 @@ module.exports = {
   },
   parserOptions: {
     parser: 'babel-eslint',
-    soureType: 'module',
+    soureType: 'module'
   },
-  extends: [
-    'alloy',
-    'plugin:vue/essential'
-  ],
   plugins: [
     'vue'
+  ],
+  extends: [
+    '@vue/standard',
+    'plugin:vue/essential'
   ]
-};
+}
