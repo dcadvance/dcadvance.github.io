@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/dcadvance/dcadvance.github.io#readme",
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.19.0",
+    "eslint-config-alloy": "^3.10.0",
+    "eslint-plugin-vue": "^7.5.0",
     "husky": "^4.3.8",
     "vuepress": "^1.8.0"
   },

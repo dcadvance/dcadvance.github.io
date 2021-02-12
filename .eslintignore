@@ -1,0 +1,11 @@
+src/icon/iconfont
+src/vendor
+temp
+dist
+sdist
+release
+test
+build
+config
+ignore
+node_modules
