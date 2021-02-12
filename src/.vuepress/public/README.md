@@ -1,3 +1,0 @@
-# public
-
-Static resource directory.
