@@ -1,15 +1,15 @@
-const $zhConfig = require('../zh/config');
-const $enConfig = require('../en/config');
+const $zhConfig = require('../zh/config')
+const $enConfig = require('../en/config')
 
 const localeList = [
   $zhConfig,
-  $enConfig,
+  $enConfig
 ]
 
 const locales = {}
 localeList.forEach(conf => {
   if (conf.home) {
-    locales[conf.home] = conf;
+    locales[conf.home] = conf
   }
 })
 
@@ -18,8 +18,6 @@ module.exports = {
   description: 'Just playing around',
   dest: 'dist',
   evergreen: true,
-  locales: [
-    $zhConfig,
-    $enConfig,
-  ]
+  defaultLocales: '/zh/',
+  locales
 }

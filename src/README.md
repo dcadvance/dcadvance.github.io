@@ -1,5 +1,0 @@
-# DC-Advancement
-
-intro
-
-home

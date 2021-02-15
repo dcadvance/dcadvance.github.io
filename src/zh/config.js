@@ -5,7 +5,7 @@ const config = {
   // 语言选择栏的标签名称
   selectText: '简体中文',
   // 默认标题(用于SEO)
-  title: '中文标题',
+  title: '埃尔兰根中文学习中心',
   // 默认页面描述(用于SEO)
   description: '中文描述'
 }
