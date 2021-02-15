@@ -3,9 +3,18 @@
 </template>
 
 <script>
+import $lodash from 'lodash'
+
 export default {
+  methods: {
+    redirect () {
+      const defaultLang = $lodash.get(this, '$page.frontmatter.defaultLang', 'zh')
+      const defaultLangPath = `/${defaultLang}/`
+      this.$router.replace(defaultLangPath)
+    }
+  },
   mounted () {
-    console.log('mounted')
+    this.redirect()
   }
 }
 </script>

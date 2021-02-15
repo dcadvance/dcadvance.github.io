@@ -1,3 +1,4 @@
 ---
 layout: Index
+defaultLang: 'zh'
 ---
