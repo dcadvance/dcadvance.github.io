@@ -14,10 +14,53 @@ localeList.forEach(conf => {
 })
 
 module.exports = {
-  title: 'Hello VuePress',
-  description: 'Just playing around',
+  title: 'DCADVANCE',
+  description: 'DCADVANCE',
   dest: 'dist',
   evergreen: true,
+  head: [
+    ['meta', {
+      name: 'viewport',
+      content: 'width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover'
+    }],
+    ['meta', {
+      name: 'format-detection',
+      content: 'telephone=no'
+    }],
+    ['meta', {
+      name: 'HandheldFriendly',
+      content: 'true'
+    }],
+    ['meta', {
+      name: 'theme-color',
+      content: '#F1253D'
+    }],
+    ['meta', {
+      name: 'apple-mobile-web-app-title',
+      content: 'yes'
+    }],
+    ['meta', {
+      name: 'apple-mobile-web-app-status-bar-style',
+      content: 'black'
+    }],
+    ['link', {
+      rel: 'apple-touch-icon',
+      href: '//512x512.png'
+    }],
+    ['link', {
+      rel: 'icon',
+      size: '192x192',
+      href: '//192x192.png'
+    }],
+    ['link', {
+      rel: 'shortcut icon',
+      href: '//48x48.ico'
+    }],
+    ['link', {
+      rel: 'dns-prefetch',
+      href: '//domain'
+    }]
+  ],
   sass: {
     implementation: require('sass'),
     indentedSyntax: true
