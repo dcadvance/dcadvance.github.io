@@ -1,3 +1,5 @@
+import Vuetify from 'vuetify/lib'
+
 // async function is also supported, too
 export default ({
   Vue, // the version of Vue being used in the VuePress app
@@ -7,4 +9,5 @@ export default ({
   isServer // is this enhancement applied in server-rendering or client
 }) => {
   // ...apply enhancements to the app
+  Vue.use(Vuetify)
 }
