@@ -1,4 +1,4 @@
-import Vuetify from 'vuetify/lib'
+import Vuetify from 'vuetify'
 
 // async function is also supported, too
 export default ({

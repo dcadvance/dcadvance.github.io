@@ -18,6 +18,9 @@ module.exports = {
   description: 'Just playing around',
   dest: 'dist',
   evergreen: true,
-  defaultLocales: '/zh/',
+  sass: {
+    implementation: require('sass'),
+    indentedSyntax: true
+  },
   locales
 }
