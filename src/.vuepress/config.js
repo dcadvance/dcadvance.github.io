@@ -1,5 +1,5 @@
 const $zhConfig = require('../zh/config')
-const $enConfig = require('../en/config')
+const $enConfig = require('../de/config')
 
 const localeList = [
   $zhConfig,
@@ -17,11 +17,18 @@ module.exports = {
   title: 'DCADVANCE',
   description: 'DCADVANCE',
   dest: 'dist',
-  evergreen: true,
+  evergreen: false,
   head: [
     ['meta', {
       name: 'viewport',
-      content: 'width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover'
+      content: [
+        'width=device-width',
+        'initial-scale=1',
+        'maximum-scale=1',
+        'minimum-scale=1',
+        'user-scalable=no',
+        'viewport-fit=cover'
+      ].join(', ')
     }],
     ['meta', {
       name: 'format-detection',
@@ -30,10 +37,6 @@ module.exports = {
     ['meta', {
       name: 'HandheldFriendly',
       content: 'true'
-    }],
-    ['meta', {
-      name: 'theme-color',
-      content: '#F1253D'
     }],
     ['meta', {
       name: 'apple-mobile-web-app-title',
@@ -61,9 +64,5 @@ module.exports = {
       href: '//domain'
     }]
   ],
-  sass: {
-    implementation: require('sass'),
-    indentedSyntax: true
-  },
   locales
 }

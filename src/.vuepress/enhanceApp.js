@@ -1,4 +1,5 @@
 import Vuetify from 'vuetify'
+import 'vuetify/dist/vuetify.min.css'
 
 // async function is also supported, too
 export default ({
@@ -10,4 +11,5 @@ export default ({
 }) => {
   // ...apply enhancements to the app
   Vue.use(Vuetify)
+  options.vuetify = new Vuetify({})
 }
