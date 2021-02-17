@@ -19,7 +19,12 @@
     "url": "https://github.com/dcadvance/dcadvance.github.io/issues"
   },
   "homepage": "https://github.com/dcadvance/dcadvance.github.io#readme",
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "vuetify": "^2.4.4"
+  },
   "devDependencies": {
+    "@mdi/js": "^5.9.55",
     "@vue/eslint-config-standard": "^6.0.0",
     "babel-eslint": "^10.1.0",
     "deepmerge": "^4.2.2",
@@ -29,11 +34,12 @@
     "eslint-plugin-promise": "^4.3.1",
     "eslint-plugin-vue": "^7.5.0",
     "husky": "^4.3.8",
-    "less": "^4.1.1",
-    "less-loader": "^8.0.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
     "sass": "^1.32.7",
     "sass-loader": "^11.0.1",
-    "vuepress": "^1.8.0"
+    "vuepress": "^1.8.0",
+    "webpack-dev-middleware": "^3.6.0"
   },
   "husky": {
     "hooks": {
@@ -41,9 +47,5 @@
     }
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "lodash": "^4.17.20",
-    "vuetify": "^2.4.4"
-  }
+  "license": "ISC"
 }

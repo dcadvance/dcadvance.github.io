@@ -1,35 +1,41 @@
 <template>
-<v-app>
-  <v-alert
-    border="top"
-    color="red lighten-2"
-    dark
+<v-app class="l-wrapper">
+  <v-navigation-drawer
+    app
+    v-model="drawer"
+    class="l-wrapper"
   >
-    I'm an alert with a top border and red color
-  </v-alert>
-  <v-alert
-    border="right"
-    color="blue-grey"
-    dark
+    <Sider/>
+  </v-navigation-drawer>
+  <v-app-bar
+    app
+    class="l-wrapper"
   >
-    I'm an alert with a right border and blue-grey color
-  </v-alert>
-  <v-alert
-    border="bottom"
-    color="pink darken-1"
-    dark
-  >
-    I'm an alert with a bottom border and pink color
-  </v-alert>
-  <v-alert
-    border="left"
-    color="indigo"
-    dark
-  >
-    I'm an alert with a border left type info
-  </v-alert>
-  <Header/>
-  <Sider/>
-  <Content/>
+    <v-app-bar-nav-icon @click="onNavIconClick"></v-app-bar-nav-icon>
+    <v-toolbar-title>Application</v-toolbar-title>
+    <Header/>
+  </v-app-bar>
+  <v-main>
+    <v-container>
+      <Content/>
+    </v-container>
+  </v-main>
 </v-app>
 </template>
+
+<script>
+export default {
+  data: () => ({
+    drawer: null
+  }),
+  methods: {
+    onNavIconClick () {
+      this.drawer = !this.drawer
+    }
+  }
+}
+</script>
+
+<style lang="less">
+
+</style>

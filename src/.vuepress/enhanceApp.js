@@ -1,5 +1,8 @@
 import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
+import langZH from 'vuetify/es5/locale/zh-Hans'
+import langDE from 'vuetify/es5/locale/de'
+import './common/index'
 
 // async function is also supported, too
 export default ({
@@ -11,5 +14,16 @@ export default ({
 }) => {
   // ...apply enhancements to the app
   Vue.use(Vuetify)
-  options.vuetify = new Vuetify({})
+  options.vuetify = new Vuetify({
+    icons: {
+      iconfont: 'mdiSvg'
+    },
+    lang: {
+      locales: {
+        zh: langZH,
+        de: langDE
+      },
+      current: 'zh'
+    }
+  })
 }

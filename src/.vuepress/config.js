@@ -1,9 +1,9 @@
 const $zhConfig = require('../zh/config')
-const $enConfig = require('../de/config')
+const $deConfig = require('../de/config')
 
 const localeList = [
   $zhConfig,
-  $enConfig
+  $deConfig
 ]
 
 const locales = {}
@@ -14,10 +14,10 @@ localeList.forEach(conf => {
 })
 
 module.exports = {
-  title: 'DCADVANCE',
-  description: 'DCADVANCE',
+  title: 'DCFE',
+  description: 'Deutsch-chinesischer kultureller und künstlerischer Austausch, Integration und Förderung.',
   dest: 'dist',
-  evergreen: false,
+  locales,
   head: [
     ['meta', {
       name: 'viewport',
@@ -64,5 +64,24 @@ module.exports = {
       href: '//domain'
     }]
   ],
-  locales
+  less: {
+    javascriptEnabled: true
+  },
+  // chainWebpack (config) {
+  //   config.module
+  //     .rule('less')
+  //     .oneOf('normal')
+  //     .use('less-loader')
+  //     .options({
+  //       javascriptEnabled: true
+  //     })
+  //     .end()
+  //     .end()
+  //     .oneOf('modules')
+  //     .use('less-loader')
+  //     .options({
+  //       javascriptEnabled: true
+  //     })
+  // },
+  evergreen: false
 }

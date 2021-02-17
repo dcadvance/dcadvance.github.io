@@ -1,9 +1,9 @@
 const config = {
   home: '/de/',
   lang: 'de',
-  selectText: '德语',
-  title: '德语 title',
-  description: '德语 desc'
+  selectText: 'Deutsch',
+  title: 'DCFE',
+  description: 'Deutsch-chinesischer kultureller und künstlerischer Austausch, Integration und Förderung.'
 }
 
 module.exports = config
