@@ -12,7 +12,7 @@
     class="l-wrapper"
   >
     <v-app-bar-nav-icon @click="onNavIconClick"></v-app-bar-nav-icon>
-    <v-toolbar-title>Application</v-toolbar-title>
+    <HomeButton/>
     <Header/>
   </v-app-bar>
   <v-main>
@@ -24,7 +24,12 @@
 </template>
 
 <script>
+import HomeButton from '../comps/HomeButton'
+
 export default {
+  components: {
+    HomeButton
+  },
   data: () => ({
     drawer: null
   }),
