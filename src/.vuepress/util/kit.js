@@ -1,5 +1,4 @@
 import urlJoin from 'url-join'
-import get from 'lodash/get'
 
 // 设置默认语言
 const defaultLocale = 'zh'
@@ -15,8 +14,11 @@ export function getLocationLang () {
 }
 
 export function getCurLang (instance) {
-  const curLang = get(instance, '$vuetify.lang.current', defaultLocale)
-  return curLang
+  let lang = defaultLocale
+  const { path } = instance.$route
+  const arr = path.split('/')
+  lang = arr[1] || defaultLocale
+  return lang
 }
 
 export function getLangPath (instance, path) {
