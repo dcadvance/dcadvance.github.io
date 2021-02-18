@@ -9,8 +9,13 @@
 <body>
 <script>
 !(function(){
-  const defaultLang = 'zh';
-  const defaultPath = `/${defaultLang}/`;
+  var defaultLang = 'zh';
+  var langList = ['zh', 'de'];
+  var curLang = localStorage.getItem('current-locale') || defaultLang;
+  if (langList.indexOf(curLang) < 0) {
+    curLang = defaultLang;
+  }
+  var defaultPath = `/${curLang}/`;
   window.location.href = defaultPath;
 })();
 </script>

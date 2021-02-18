@@ -26,7 +26,7 @@
       <v-list>
         <v-list-item-group
           mandatory
-          v-model="selectedLocale"
+          v-model="selectedLocaleIndex"
           color="primary"
         >
           <v-list-item
@@ -60,7 +60,7 @@ export default {
   },
   data: () => ({
     drawer: null,
-    selectedLocale: 0,
+    selectedLocaleIndex: 0,
     icons: {
       mdiTranslate,
       mdiChevronDown
@@ -81,12 +81,16 @@ export default {
     }
   },
   watch: {
-    selectedLocale (val) {
-      this.setLocale(val)
+    selectedLocaleIndex (val) {
+      this.changeLocaleIndex(val)
     }
   },
   methods: {
-    setLocale (val) {
+    setLocale (targetLang) {
+      this.$vuetify.lang.current = targetLang
+      localStorage.setItem('current-locale', targetLang)
+    },
+    changeLocaleIndex (val) {
       const {
         localeList
       } = this
@@ -102,18 +106,20 @@ export default {
       const pathUrl = href.replace(regPrefix, '')
       const regLang = new RegExp(`^/${curLang}/`)
       const targetPath = pathUrl.replace(regLang, `/${targetLang}/`)
-      this.$router.push(targetPath)
-      this.$vuetify.lang.current = targetLang
+      if (targetPath !== pathUrl) {
+        this.$router.push(targetPath)
+        this.setLocale(targetLang)
+      }
     },
     initLocale () {
       const curLang = getLocationLang()
-      this.$vuetify.lang.current = curLang
+      this.setLocale(curLang)
       const {
         localeList
       } = this
       const localeArr = localeList.map(item => item.value)
       const index = localeArr.indexOf(curLang)
-      this.selectedLocale = index
+      this.selectedLocaleIndex = index
     },
     onNavIconClick () {
       this.$emit('navIconClick')
