@@ -1,7 +1,14 @@
 <template>
-<v-toolbar-title v-if="siteTitle">
-  <v-icon>{{ icons.mdiHome }}</v-icon>
-  <span class="d-none d-sm-inline-block">{{siteTitle}}</span>
+<v-toolbar-title class="d-flex">
+  <v-btn
+    large
+    depressed
+    exact
+    :to="homeUrl"
+  >
+    <v-icon>{{ icons.mdiHome }}</v-icon>
+    <span class="d-none d-sm-block" v-if="siteTitle">{{siteTitle}}</span>
+  </v-btn>
 </v-toolbar-title>
 </template>
 
@@ -9,6 +16,10 @@
 import {
   mdiHome
 } from '@mdi/js'
+import {
+  getLangPath,
+  getSiteTitle
+} from '../util/kit'
 
 export default {
   data: () => ({
@@ -17,12 +28,11 @@ export default {
     }
   }),
   computed: {
+    homeUrl () {
+      return getLangPath(this, '/')
+    },
     siteTitle () {
-      const curLang = this.$vuetify.lang.current
-      const langPath = `/${curLang}/`
-      const langConfig = this.$site.locales[langPath]
-      const title = langConfig.title || this.$site.title || ''
-      return title
+      return getSiteTitle(this)
     }
   }
 }
