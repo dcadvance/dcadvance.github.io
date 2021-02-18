@@ -8,8 +8,9 @@
     <HomeButton/>
     <v-spacer/>
     <v-menu
-      offset-x
+      bottom
       offset-y
+      left
     >
       <template v-slot:activator="{ on, attrs }">
         <v-btn
@@ -23,7 +24,7 @@
       </template>
       <v-list>
         <v-list-item
-          v-for="(item, index) in items"
+          v-for="(item, index) in localeList"
           :key="index"
         >
           <v-list-item-title>{{ item.title }}</v-list-item-title>
@@ -49,14 +50,21 @@ export default {
     icons: {
       mdiTranslate,
       mdiChevronDown
-    },
-    items: [
-      { title: 'Click Me' },
-      { title: 'Click Me' },
-      { title: 'Click Me' },
-      { title: 'Click Me 2' }
-    ]
+    }
   }),
+  computed: {
+    localeList () {
+      const {
+        locales
+      } = this.$site
+      const list = Object.values(locales).map((locale) => {
+        const item = {}
+        item.title = locale.selectText
+        return item
+      })
+      return list
+    }
+  },
   methods: {
     onNavIconClick () {
       this.$emit('navIconClick')

@@ -23,6 +23,7 @@ export default ({
         zh: langZH,
         de: langDE
       },
+      defaultLocale: 'zh',
       current: 'zh'
     }
   })

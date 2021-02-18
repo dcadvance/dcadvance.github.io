@@ -47,6 +47,6 @@
       "pre-commit": "./hooks/pre-commit.sh"
     }
   },
-  "author": "",
+  "author": "pillar0514@163.com",
   "license": "ISC"
 }
