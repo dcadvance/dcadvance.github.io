@@ -32,6 +32,7 @@ export default {
       return getLangPath(this, '/')
     },
     siteTitle () {
+      console.log('title', getSiteTitle(this))
       return getSiteTitle(this)
     }
   }

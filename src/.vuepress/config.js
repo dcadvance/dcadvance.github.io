@@ -67,21 +67,5 @@ module.exports = {
   less: {
     javascriptEnabled: true
   },
-  // chainWebpack (config) {
-  //   config.module
-  //     .rule('less')
-  //     .oneOf('normal')
-  //     .use('less-loader')
-  //     .options({
-  //       javascriptEnabled: true
-  //     })
-  //     .end()
-  //     .end()
-  //     .oneOf('modules')
-  //     .use('less-loader')
-  //     .options({
-  //       javascriptEnabled: true
-  //     })
-  // },
   evergreen: false
 }
