@@ -1,6 +1,4 @@
 ---
-layout: Home
-title: 首页
 ---
 
 # DC-Advancement
