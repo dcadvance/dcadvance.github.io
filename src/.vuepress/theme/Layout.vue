@@ -12,6 +12,7 @@
     <v-container>
       <Content/>
     </v-container>
+    <GoTop/>
   </v-main>
   <Footer></Footer>
 </v-app>
@@ -21,11 +22,13 @@
 import Header from '../comps/Header'
 import Sider from '../comps/Sider'
 import Footer from '../comps/Footer'
+import GoTop from '../comps/GoTop'
 
 export default {
   components: {
     Header,
     Sider,
+    GoTop,
     Footer
   },
   data: () => ({
