@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/dcadvance/dcadvance.github.io#readme",
   "dependencies": {
+    "es6-tween": "^5.5.11",
     "lodash": "^4.17.20",
     "url-join": "^4.0.1",
     "vuetify": "^2.4.4"
