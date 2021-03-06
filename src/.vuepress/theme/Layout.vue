@@ -10,9 +10,10 @@
   <Header @navIconClick="onNavIconClick"/>
   <v-main>
     <v-container>
+      <Sider/>
       <Content/>
     </v-container>
-    <GoTop/>
+    <BackToTop/>
   </v-main>
   <Footer></Footer>
 </v-app>
@@ -22,13 +23,13 @@
 import Header from '../comps/Header'
 import Sider from '../comps/Sider'
 import Footer from '../comps/Footer'
-import GoTop from '../comps/GoTop'
+import BackToTop from '../comps/BackToTop'
 
 export default {
   components: {
     Header,
     Sider,
-    GoTop,
+    BackToTop,
     Footer
   },
   data: () => ({

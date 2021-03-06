@@ -18,11 +18,6 @@
 
 <script>
 import {
-  Easing,
-  Tween,
-  autoPlay
-} from 'es6-tween'
-import {
   mdiChevronUp
 } from '@mdi/js'
 
@@ -38,18 +33,10 @@ export default {
       this.hidden = window.scrollY <= 0
     },
     onClick () {
-      const scroll = {
-        y: window.scrollY
-      }
-
-      autoPlay(true)
-      const tween = new Tween(scroll)
-        .easing(Easing.Quartic.Out)
-        .to({ y: 0 }, 600)
-        .on('update', ({ y }) => {
-          window.scrollTo(0, y)
-        })
-      tween.start()
+      this.$vuetify.goTo(0, {
+        duration: 1000,
+        easing: 'easeOutCubic'
+      })
     }
   },
   mounted () {
