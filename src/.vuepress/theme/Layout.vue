@@ -9,9 +9,21 @@
   </v-navigation-drawer>
   <Header @navIconClick="onNavIconClick"/>
   <v-main>
-    <v-container>
-      <Sider/>
-      <Content/>
+    <v-container
+      class="l-wrapper"
+    >
+      <v-row>
+        <v-col
+          cols="3"
+        >
+          <Sider/>
+        </v-col>
+        <v-col
+          cols="9"
+        >
+          <Content/>
+        </v-col>
+      </v-row>
     </v-container>
     <BackToTop/>
   </v-main>
