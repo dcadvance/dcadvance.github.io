@@ -3,6 +3,7 @@
   <v-list>
     <v-list-item-group
       color="primary"
+      v-model="selectedItem"
     >
       <v-list-item
         v-for="(item, index) in sideLinks"
@@ -25,6 +26,9 @@ import {
 } from '../util/kit'
 
 export default {
+  data: () => ({
+    selectedItem: null
+  }),
   computed: {
     sideLinks () {
       const langConfig = getLangConfig(this)
