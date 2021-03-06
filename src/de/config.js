@@ -6,23 +6,23 @@ const config = {
   description: 'Deutsch-chinesischer kultureller und künstlerischer Austausch, Integration und Förderung.',
   // 导航列表
   navList: [{
-    title: '德语：我们的课程',
-    url: ''
+    title: 'Our Lessons',
+    url: '/lesson'
   }, {
-    title: '德语：我们的活动',
-    url: ''
+    title: 'Our Activities',
+    url: '/activity'
   }, {
-    title: '德语：学习园地',
-    url: ''
+    title: 'Learn Park',
+    url: '/learn'
   }, {
-    title: '德语：互助与关怀',
-    url: ''
+    title: 'Care EachOther',
+    url: '/care'
   }, {
-    title: '德语：关于我们',
+    title: 'About US',
     url: '/about'
   }, {
-    title: '德语：下载专区',
-    url: ''
+    title: 'Download',
+    url: '/download'
   }]
 }
 

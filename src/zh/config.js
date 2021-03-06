@@ -11,22 +11,22 @@ const config = {
   // 导航列表
   navList: [{
     title: '我们的课程',
-    url: ''
+    url: '/lesson'
   }, {
     title: '我们的活动',
-    url: ''
+    url: '/activity'
   }, {
     title: '学习园地',
-    url: ''
+    url: '/learn'
   }, {
     title: '互助与关怀',
-    url: ''
+    url: '/care'
   }, {
     title: '关于我们',
     url: '/about'
   }, {
     title: '下载专区',
-    url: ''
+    url: '/download'
   }]
 }
 
