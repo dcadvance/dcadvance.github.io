@@ -34,9 +34,14 @@ export function getLangConfig (instance) {
   return langConfig
 }
 
-export function getSiteTitle (instance) {
+export function getCurLangConfig (instance) {
   const curLang = getCurLang(instance)
   const langConfig = getLangConfig(instance, curLang)
+  return langConfig
+}
+
+export function getSiteTitle (instance) {
+  const langConfig = getCurLangConfig(instance)
   const title = langConfig.title || instance.$site.title || ''
   return title
 }

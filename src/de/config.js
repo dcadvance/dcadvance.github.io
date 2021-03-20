@@ -3,6 +3,7 @@ const config = {
   lang: 'de',
   selectText: 'Deutsch',
   title: 'DCFE',
+  homeButtonText: 'HOME',
   description: 'Deutsch-chinesischer kultureller und künstlerischer Austausch, Integration und Förderung.',
   // 导航列表
   navList: [{

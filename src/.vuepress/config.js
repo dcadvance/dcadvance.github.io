@@ -48,20 +48,20 @@ module.exports = {
     }],
     ['link', {
       rel: 'apple-touch-icon',
-      href: '//512x512.png'
+      href: '//s.yangshipin.cn/CCTVVideo/CCTVVideoAssets/v0/images/android-chrome-512x512.png'
     }],
     ['link', {
       rel: 'icon',
       size: '192x192',
-      href: '//192x192.png'
+      href: '//s.yangshipin.cn/CCTVVideo/CCTVVideoAssets/v0/images/android-chrome-192x192.png'
     }],
     ['link', {
       rel: 'shortcut icon',
-      href: '//48x48.ico'
+      href: '//s.yangshipin.cn/CCTVVideo/CCTVVideoAssets/v0/images/favicon.ico'
     }],
     ['link', {
       rel: 'dns-prefetch',
-      href: '//domain'
+      href: '//imgbox.com/'
     }]
   ],
   less: {

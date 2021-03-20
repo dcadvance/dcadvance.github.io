@@ -6,6 +6,8 @@ const config = {
   selectText: '简体中文',
   // 默认标题(用于SEO)
   title: '埃尔兰根中德促进协会',
+  // 首页按钮文案
+  homeButtonText: '首页',
   // 默认页面描述(用于SEO)
   description: '埃尔兰根中德促进协会的中文描述',
   // 导航列表

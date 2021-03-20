@@ -3,11 +3,12 @@
   <v-btn
     large
     depressed
+    outlined
     exact
     :to="homeUrl"
   >
     <v-icon>{{ icons.mdiHome }}</v-icon>
-    <span class="d-none d-md-block">首页</span>
+    <span class="d-none d-md-block" v-if="homeButtonText">{{homeButtonText}}</span>
   </v-btn>
 </v-toolbar-title>
 </template>
@@ -17,7 +18,8 @@ import {
   mdiHome
 } from '@mdi/js'
 import {
-  getLangPath
+  getLangPath,
+  getCurLangConfig
 } from '../util/kit'
 
 export default {
@@ -29,6 +31,10 @@ export default {
   computed: {
     homeUrl () {
       return getLangPath(this, '/')
+    },
+    homeButtonText () {
+      const langConfig = getCurLangConfig(this)
+      return langConfig.homeButtonText
     }
   }
 }
