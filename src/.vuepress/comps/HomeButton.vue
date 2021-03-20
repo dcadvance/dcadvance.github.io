@@ -7,7 +7,7 @@
     :to="homeUrl"
   >
     <v-icon>{{ icons.mdiHome }}</v-icon>
-    <span class="d-none d-sm-block" v-if="siteTitle">{{siteTitle}}</span>
+    <span class="d-none d-md-block">首页</span>
   </v-btn>
 </v-toolbar-title>
 </template>
@@ -17,8 +17,7 @@ import {
   mdiHome
 } from '@mdi/js'
 import {
-  getLangPath,
-  getSiteTitle
+  getLangPath
 } from '../util/kit'
 
 export default {
@@ -30,10 +29,11 @@ export default {
   computed: {
     homeUrl () {
       return getLangPath(this, '/')
-    },
-    siteTitle () {
-      return getSiteTitle(this)
     }
   }
 }
 </script>
+
+<style lang="less">
+
+</style>

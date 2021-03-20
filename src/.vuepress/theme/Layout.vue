@@ -15,6 +15,7 @@
       <v-row>
         <v-col
           cols="3"
+          class="d-none d-md-block"
         >
           <Sider/>
         </v-col>

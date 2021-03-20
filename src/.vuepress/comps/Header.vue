@@ -2,10 +2,13 @@
   <v-app-bar
     app
     elevate-on-scroll
-    class="l-wrapper"
+    class="l-wrapper p-header"
   >
-    <v-app-bar-nav-icon @click="onNavIconClick"></v-app-bar-nav-icon>
-    <HomeButton/>
+    <v-app-bar-nav-icon
+      class="d-block d-md-none"
+      @click="onNavIconClick"
+    ></v-app-bar-nav-icon>
+    <HomeButton class="p-header-homebutton"/>
     <v-spacer/>
     <v-menu
       open-on-hover
@@ -132,3 +135,15 @@ export default {
   }
 }
 </script>
+
+<style lang="less">
+.v-application--is-ltr .v-toolbar__content>.v-btn.v-btn--icon:first-child,
+.v-application--is-ltr .v-toolbar__extension>.v-btn.v-btn--icon:first-child{
+  margin-right: 12px;
+}
+
+.v-application--is-ltr .v-toolbar__content>.v-btn.v-btn--icon:first-child+.v-toolbar__title,
+.v-application--is-ltr .v-toolbar__extension>.v-btn.v-btn--icon:first-child+.v-toolbar__title{
+  padding-left: 0;
+}
+</style>

@@ -7,22 +7,22 @@ const config = {
   // 导航列表
   navList: [{
     title: 'Our Lessons',
-    url: '/lesson'
+    url: '/lesson.html'
   }, {
     title: 'Our Activities',
-    url: '/activity'
+    url: '/activity.html'
   }, {
     title: 'Learn Park',
-    url: '/learn'
+    url: '/learn.html'
   }, {
     title: 'Care EachOther',
-    url: '/care'
+    url: '/care.html'
   }, {
     title: 'About US',
-    url: '/about'
+    url: '/about.html'
   }, {
     title: 'Download',
-    url: '/download'
+    url: '/download.html'
   }]
 }
 

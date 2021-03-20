@@ -1,5 +1,5 @@
 <template>
-<v-card>
+<v-card class="p-sider">
   <v-list>
     <v-list-item-group
       color="primary"
@@ -10,9 +10,7 @@
         :key="index"
         :to="item.url"
       >
-        <v-list-item-content>
-          <v-list-item-title v-text="item.title"></v-list-item-title>
-        </v-list-item-content>
+        <v-list-item-content>{{item.title}}</v-list-item-content>
       </v-list-item>
     </v-list-item-group>
   </v-list>
@@ -44,3 +42,20 @@ export default {
   }
 }
 </script>
+
+<style lang="less">
+.p-sider{
+  .v-list-item__content{
+    padding: 0;
+  }
+  .v-btn__content{
+    justify-content: initial;
+  }
+  .v-list-item{
+    .v-btn,
+    .v-btn:hover{
+      background-color: initial;
+    }
+  }
+}
+</style>
