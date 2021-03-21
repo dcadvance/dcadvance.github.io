@@ -19,7 +19,7 @@ import {
 } from '@mdi/js'
 import {
   getLangPath,
-  getCurLangConfig
+  getLangConfig
 } from '../util/kit'
 
 export default {
@@ -33,7 +33,7 @@ export default {
       return getLangPath(this, '/')
     },
     homeButtonText () {
-      const langConfig = getCurLangConfig(this)
+      const langConfig = getLangConfig(this)
       return langConfig.homeButtonText
     }
   }

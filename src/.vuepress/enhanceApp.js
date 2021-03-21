@@ -4,6 +4,8 @@ import langZH from 'vuetify/es5/locale/zh-Hans'
 import langDE from 'vuetify/es5/locale/de'
 import './common/index'
 
+const defaultLocale = 'zh'
+
 // async function is also supported, too
 export default ({
   // the version of Vue being used in the VuePress app
@@ -19,6 +21,7 @@ export default ({
 }) => {
   // ...apply enhancements to the app
   Vue.use(Vuetify)
+
   options.vuetify = new Vuetify({
     icons: {
       iconfont: 'mdiSvg'
@@ -28,8 +31,8 @@ export default ({
         zh: langZH,
         de: langDE
       },
-      defaultLocale: 'zh',
-      current: 'zh'
+      defaultLocale,
+      current: defaultLocale
     }
   })
 }

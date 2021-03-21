@@ -53,8 +53,7 @@ import {
   mdiChevronDown
 } from '@mdi/js'
 import {
-  getLocationLang,
-  getCurLang
+  getLocationLang
 } from '../util/kit'
 
 export default {
@@ -97,7 +96,7 @@ export default {
       const {
         localeList
       } = this
-      const curLang = getCurLang(this)
+      const curLang = this.$lang
       const lang = localeList[val]
       const targetLang = lang.value
       const {
