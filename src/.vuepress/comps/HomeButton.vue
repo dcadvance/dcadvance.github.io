@@ -1,9 +1,8 @@
 <template>
-<v-toolbar-title class="d-flex">
+<v-toolbar-title class="p-homebtn">
   <v-btn
     large
     depressed
-    outlined
     exact
     :to="homeUrl"
   >
@@ -41,5 +40,9 @@ export default {
 </script>
 
 <style lang="less">
-
+.p-homebtn{
+  .v-btn.v-btn--has-bg{
+    background-color: rgba(0,0,0,0.05);
+  }
+}
 </style>

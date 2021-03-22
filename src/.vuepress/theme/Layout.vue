@@ -3,15 +3,13 @@
   <v-navigation-drawer
     app
     v-model="drawer"
-    class="l-wrapper"
+    class="l-wrapper d-md-none"
   >
     <Sider/>
   </v-navigation-drawer>
   <Header @navIconClick="onNavIconClick"/>
-  <v-main>
-    <v-container
-      class="l-wrapper"
-    >
+  <v-main class="l-wrapper p-main" :style="contentStyles">
+    <v-container>
       <v-row>
         <v-col
           cols="3"
@@ -46,7 +44,10 @@ export default {
     Footer
   },
   data: () => ({
-    drawer: null
+    drawer: null,
+    contentStyles: {
+      'padding-left': 0
+    }
   }),
   methods: {
     onNavIconClick () {
@@ -59,5 +60,12 @@ export default {
 </script>
 
 <style lang="less">
-
+.p-main{
+  width: 100%;
+}
+@media (min-width: 960px) {
+  .container {
+    max-width: 100%;
+  }
+}
 </style>

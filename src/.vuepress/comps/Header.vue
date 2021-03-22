@@ -3,6 +3,7 @@
     app
     elevate-on-scroll
     class="l-wrapper p-header"
+    :style="styles"
   >
     <v-app-bar-nav-icon
       class="d-block d-md-none"
@@ -66,6 +67,10 @@ export default {
     icons: {
       mdiTranslate,
       mdiChevronDown
+    },
+    styles: {
+      left: 'initial',
+      right: 'initial'
     }
   }),
   computed: {
@@ -144,5 +149,9 @@ export default {
 .v-application--is-ltr .v-toolbar__content>.v-btn.v-btn--icon:first-child+.v-toolbar__title,
 .v-application--is-ltr .v-toolbar__extension>.v-btn.v-btn--icon:first-child+.v-toolbar__title{
   padding-left: 0;
+}
+
+.p-header {
+  width: 100%;
 }
 </style>
