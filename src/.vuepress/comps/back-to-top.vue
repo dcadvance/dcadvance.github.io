@@ -3,7 +3,7 @@
   <v-btn
     v-show="!hidden"
     v-scroll="onScroll"
-    class="mx-2 v-gotop"
+    class="mx-2 w-gotop"
     fab
     dark
     color="indigo"
@@ -46,7 +46,7 @@ export default {
 </script>
 
 <style lang="less">
-.v-gotop{
+.w-gotop{
   position: fixed;
   right: 20px;
   bottom: 40px;

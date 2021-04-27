@@ -1,5 +1,5 @@
 <template>
-<v-toolbar-title class="p-homebtn">
+<v-toolbar-title class="w-homebtn">
   <v-btn
     large
     depressed
@@ -40,7 +40,7 @@ export default {
 </script>
 
 <style lang="less">
-.p-homebtn{
+.w-homebtn{
   .v-btn.v-btn--has-bg{
     background-color: rgba(0,0,0,0.05);
   }
