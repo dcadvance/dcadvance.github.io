@@ -31,10 +31,10 @@
 </template>
 
 <script>
-import Header from '../comps/Header'
-import Sider from '../comps/Sider'
-import Footer from '../comps/Footer'
-import BackToTop from '../comps/BackToTop'
+import Header from '../comps/header'
+import Sider from '../comps/sider'
+import Footer from '../comps/footer'
+import BackToTop from '../comps/back-to-top'
 
 export default {
   components: {

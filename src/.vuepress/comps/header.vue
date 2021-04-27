@@ -57,7 +57,7 @@
 </template>
 
 <script>
-import HomeButton from './HomeButton'
+import HomeButton from './home-button'
 import {
   mdiTranslate,
   mdiChevronDown
@@ -183,5 +183,4 @@ export default {
     color: #316299;
   }
 }
-
 </style>
