@@ -9,6 +9,15 @@
       class="d-block d-md-none"
       @click="onNavIconClick"
     ></v-app-bar-nav-icon>
+    <router-link :to="homeUrl" class="p-header-logo d-none d-md-flex">
+      <v-img
+        max-height="44"
+        max-width="44"
+        src="/imgs/android-chrome-512x512.png"
+        class="image"
+      ></v-img>
+      <h3 class="title">DCFE</h3>
+    </router-link>
     <HomeButton class="p-header-homebutton"/>
     <v-spacer/>
     <v-menu
@@ -54,6 +63,7 @@ import {
   mdiChevronDown
 } from '@mdi/js'
 import {
+  getLangPath,
   getLocationLang
 } from '../util/kit'
 
@@ -74,6 +84,9 @@ export default {
     }
   }),
   computed: {
+    homeUrl () {
+      return getLangPath(this, '/')
+    },
     localeList () {
       const {
         locales
@@ -153,5 +166,20 @@ export default {
 
 .p-header {
   width: 100%;
+  &-logo{
+    margin-right: 20px;
+    display: flex;
+  }
+  .p-header &-logo{
+    text-decoration: none;
+  }
+  &-logo .image{
+    margin-right: 10px;
+  }
+  &-logo .title{
+    line-height: 44px;
+    color: #316299;
+  }
 }
+
 </style>
