@@ -174,6 +174,8 @@ export default {
     text-decoration: none;
   }
   &-logo .image{
+    width: 44px;
+    height: 44px;
     margin-right: 10px;
   }
   &-logo .title{
