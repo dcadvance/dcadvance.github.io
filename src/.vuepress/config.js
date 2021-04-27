@@ -48,16 +48,16 @@ module.exports = {
     }],
     ['link', {
       rel: 'apple-touch-icon',
-      href: '//s.yangshipin.cn/CCTVVideo/CCTVVideoAssets/v0/images/android-chrome-512x512.png'
+      href: '/imgs/android-chrome-512x512.png'
     }],
     ['link', {
       rel: 'icon',
       size: '192x192',
-      href: '//s.yangshipin.cn/CCTVVideo/CCTVVideoAssets/v0/images/android-chrome-192x192.png'
+      href: '/imgs/android-chrome-192x192.png'
     }],
     ['link', {
       rel: 'shortcut icon',
-      href: '//s.yangshipin.cn/CCTVVideo/CCTVVideoAssets/v0/images/favicon.ico'
+      href: '/imgs/favicon.ico'
     }],
     ['link', {
       rel: 'dns-prefetch',
