@@ -4,6 +4,12 @@ title: 首页
 
 # 埃尔兰根中文学习中心
 
+<v-img
+  src="/imgs/android-chrome-512x512.png"
+  max-width="256"
+  class="k-center"
+></v-img>
+
 文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案文案
 
 <div style="height: 100px;"></div>
