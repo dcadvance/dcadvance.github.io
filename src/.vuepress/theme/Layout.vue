@@ -18,7 +18,7 @@
           <Sider/>
         </v-col>
         <v-col
-          cols="9"
+          :cols="contentCols"
         >
           <Content/>
         </v-col>
@@ -49,12 +49,20 @@ export default {
       'padding-left': 0
     }
   }),
+  computed: {
+    contentCols () {
+      let cols = 12
+      const { width } = this.$vuetify.breakpoint
+      if (width >= 960) {
+        cols = 9
+      }
+      return cols
+    }
+  },
   methods: {
     onNavIconClick () {
       this.drawer = !this.drawer
     }
-  },
-  mounted () {
   }
 }
 </script>

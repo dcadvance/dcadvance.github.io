@@ -1,5 +1,11 @@
 <template>
 <v-card class="p-sider">
+  <div class="d-block d-md-none">
+    <div class="p-sider-head">
+      <Logo/>
+    </div>
+    <v-divider></v-divider>
+  </div>
   <v-list>
     <v-list-item-group
       color="primary"
@@ -22,8 +28,12 @@ import {
   getLangConfig,
   getLangPath
 } from '../util/kit'
+import Logo from './logo'
 
 export default {
+  components: {
+    Logo
+  },
   data: () => ({
     selectedItem: null
   }),
@@ -45,6 +55,9 @@ export default {
 
 <style lang="less">
 .p-sider{
+  &-head{
+    padding: 12px 16px;
+  }
   .v-list-item__content{
     padding: 0;
   }

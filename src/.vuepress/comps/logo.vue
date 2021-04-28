@@ -32,6 +32,7 @@ export default {
     width: 44px;
     height: 44px;
     margin-right: 10px;
+    flex: 0 0 auto;
   }
   .title{
     line-height: 44px;
