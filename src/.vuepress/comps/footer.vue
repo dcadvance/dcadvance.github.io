@@ -15,6 +15,7 @@
           :key="index"
           class="mx-3 white--text"
           icon
+          :to="getLangPath(link.url)"
         >
           <v-icon size="24px">
             {{ link.icon }}
@@ -38,26 +39,36 @@ import {
 } from '@mdi/js'
 import {
   getLangConfig,
+  getLangPath,
   getSiteTitle
 } from '../util/kit'
 
+const useFacebook = true
+const useTwitter = false
+
 export default {
-  data: () => ({
-    links: [
-      {
-        url: '/',
-        icon: mdiHome
-      },
-      {
-        url: '',
+  data: () => {
+    const links = []
+    links.push({
+      url: '/',
+      icon: mdiHome
+    })
+    if (useFacebook) {
+      links.push({
+        url: 'https://baidu.com',
         icon: mdiFacebook
-      },
-      {
+      })
+    }
+    if (useTwitter) {
+      links.push({
         url: '',
         icon: mdiTwitter
-      }
-    ]
-  }),
+      })
+    }
+    return {
+      links
+    }
+  },
   computed: {
     siteTitle () {
       return getSiteTitle(this)
@@ -66,6 +77,11 @@ export default {
       const langConfig = getLangConfig(this)
       const desc = langConfig.description || ''
       return desc
+    }
+  },
+  methods: {
+    getLangPath (path) {
+      return getLangPath(this, path)
     }
   }
 }
