@@ -15,7 +15,10 @@
           :key="index"
           class="mx-3 white--text"
           icon
-          :to="$url(link.url)"
+          exact
+          :target="link.href ? '_blank' : ''"
+          :href="link.href"
+          :to="$url(link.to)"
         >
           <v-icon size="24px">
             {{ link.icon }}
@@ -48,18 +51,18 @@ export default {
   data: () => {
     const links = []
     links.push({
-      url: '/',
+      to: '/',
       icon: mdiHome
     })
     if (useFacebook) {
       links.push({
-        url: 'https://baidu.com',
+        href: 'https://baidu.com',
         icon: mdiFacebook
       })
     }
     if (useTwitter) {
       links.push({
-        url: '',
+        href: '',
         icon: mdiTwitter
       })
     }

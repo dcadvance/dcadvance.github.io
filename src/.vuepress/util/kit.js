@@ -1,4 +1,5 @@
 import urlJoin from 'url-join'
+import Url from 'url-parse'
 
 // 设置默认语言
 const defaultLocale = 'zh'
@@ -16,6 +17,14 @@ export function getLocationLang (pathname) {
 }
 
 export function getLangPath (instance, path) {
+  path = path || ''
+  if (!path) {
+    return path
+  }
+  const loc = new Url(path)
+  if (loc.host !== location.host) {
+    return path
+  }
   const curLang = instance.$lang
   const langPath = `/${curLang}`
   return urlJoin(langPath, path)
