@@ -1,10 +1,13 @@
 // 定义文本内容区域样式
 
 .content__default{
+  margin: 0 28px;
+
   .header-anchor{
     display: inline-block;
     color: #eee;
     text-decoration: none;
+    margin-left: -1em;
   }
   .header-anchor:hover{
     color: #ddd;
@@ -23,5 +26,25 @@
   >ol{
     margin-bottom: 16px;
   }
+
+  table{
+    border-collapse: collapse;
+    margin: 16px 0;
+    display: block;
+    overflow-x: auto;
+  }
+
+  tr {
+    border-top: 1px solid #dfe2e5;
+    &:nth-child(2n){
+      background-color: #f6f8fa;
+    }
+  }
+
+  th, td{
+    border: 1px solid #dfe2e5;
+    padding: .6em 1em;
+  }
+
 }
 
