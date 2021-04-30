@@ -3,6 +3,7 @@ import 'vuetify/dist/vuetify.min.css'
 import langZH from 'vuetify/es5/locale/zh-Hans'
 import langDE from 'vuetify/es5/locale/de'
 import './common/index'
+import globalMixin from './mixin/global'
 
 const defaultLocale = 'zh'
 
@@ -21,6 +22,7 @@ export default ({
 }) => {
   // ...apply enhancements to the app
   Vue.use(Vuetify)
+  Vue.mixin(globalMixin)
 
   options.vuetify = new Vuetify({
     icons: {

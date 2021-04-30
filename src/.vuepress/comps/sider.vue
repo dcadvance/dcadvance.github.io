@@ -24,10 +24,6 @@
 </template>
 
 <script>
-import {
-  getLangConfig,
-  getLangPath
-} from '../util/kit'
 import Logo from './logo'
 
 export default {
@@ -39,12 +35,12 @@ export default {
   }),
   computed: {
     sideLinks () {
-      const langConfig = getLangConfig(this)
-      const navList = langConfig.navList || []
+      const conf = this.$config()
+      const navList = conf.navList || []
       const linkList = navList.map(item => {
         const link = {}
         link.title = item.title
-        link.url = getLangPath(this, item.url)
+        link.url = this.$url(item.url)
         return link
       })
       return linkList

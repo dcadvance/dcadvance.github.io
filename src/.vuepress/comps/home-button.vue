@@ -16,10 +16,6 @@
 import {
   mdiHome
 } from '@mdi/js'
-import {
-  getLangPath,
-  getLangConfig
-} from '../util/kit'
 
 export default {
   data: () => ({
@@ -29,11 +25,11 @@ export default {
   }),
   computed: {
     homeUrl () {
-      return getLangPath(this, '/')
+      return this.$url('/')
     },
     homeButtonText () {
-      const langConfig = getLangConfig(this)
-      return langConfig.homeButtonText
+      const conf = this.$config()
+      return conf.homeButtonText
     }
   }
 }

@@ -9,14 +9,10 @@
 </template>
 
 <script>
-import {
-  getLangPath
-} from '../util/kit'
-
 export default {
   computed: {
     homeUrl () {
-      return getLangPath(this, '/')
+      return this.$url('/')
     }
   }
 }

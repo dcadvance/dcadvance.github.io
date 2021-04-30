@@ -15,7 +15,7 @@
           :key="index"
           class="mx-3 white--text"
           icon
-          :to="getLangPath(link.url)"
+          :to="$url(link.url)"
         >
           <v-icon size="24px">
             {{ link.icon }}
@@ -38,8 +38,6 @@ import {
   mdiTwitter
 } from '@mdi/js'
 import {
-  getLangConfig,
-  getLangPath,
   getSiteTitle
 } from '../util/kit'
 
@@ -74,14 +72,9 @@ export default {
       return getSiteTitle(this)
     },
     siteDesc () {
-      const langConfig = getLangConfig(this)
-      const desc = langConfig.description || ''
+      const conf = this.$config()
+      const desc = conf.description || ''
       return desc
-    }
-  },
-  methods: {
-    getLangPath (path) {
-      return getLangPath(this, path)
     }
   }
 }
