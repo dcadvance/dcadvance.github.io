@@ -34,11 +34,18 @@
     overflow-x: auto;
   }
 
-  tr {
+  tbody tr{
     border-top: 1px solid #dfe2e5;
-    &:nth-child(2n){
+    &:nth-child(2n+1){
       background-color: #f6f8fa;
     }
+  }
+
+  tbody tr:first-child td{
+    padding: 0;
+    overflow: hidden;
+    line-height: 1px;
+    color: transparent;
   }
 
   th, td{
