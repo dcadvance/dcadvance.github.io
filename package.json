@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/dcadvance/dcadvance.github.io#readme",
   "dependencies": {
+    "@vuepress/plugin-active-header-links": "^1.8.2",
     "es6-tween": "^5.5.11",
     "lodash": "^4.17.20",
     "url-join": "^4.0.1",
