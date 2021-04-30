@@ -1,13 +1,14 @@
 // 定义文本内容区域样式
 
 .content__default{
-  margin: 0 28px;
+  margin: 0;
 
   .header-anchor{
     display: inline-block;
     color: #eee;
     text-decoration: none;
     margin-left: -1em;
+    visibility: hidden;
   }
   .header-anchor:hover{
     color: #ddd;
@@ -52,6 +53,10 @@
     border: 1px solid #dfe2e5;
     padding: .6em 1em;
   }
-
 }
 
+@media only screen and (min-width: 600px) {
+  .content__default{
+    margin: 0 12px;
+  }
+}
