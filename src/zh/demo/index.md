@@ -103,12 +103,28 @@ title: 文档示例
 
 图片格式要变更为 jpg, 限制为 200kb 以下。
 
+图片压缩可以使用在线工具: [`https://squoosh.xiaoxili.com/`](https://squoosh.xiaoxili.com/)
+
 图床上传的图片，按照下面的方式来组织。
 
-通用图片:
+标准通栏大图:
 
 ![alt文案](https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg)
 
 带链接图片:
 
 [![alt文案](https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg)](https://imgbox.com/Xc7Mq54c)
+
+控制图片宽度:
+
+<div class="mb-4" style="max-width: 500px;">
+  <img alt="alt文案" src="https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg"/>
+</div>
+
+`v-img` 图片组件:
+
+<v-img
+  src="https://images2.imgbox.com/28/5e/HBXG1u9Q_o.jpg"
+  max-width="600"
+  class="rounded-lg mb-4"
+></v-img>
