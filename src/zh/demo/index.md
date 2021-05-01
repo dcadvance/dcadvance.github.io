@@ -95,5 +95,20 @@ title: 文档示例
 
 ## 组图
 
+大图不要存放在站点下面，github 可存储空间有限，资源占用过量会导致站点无法更新。
 
+使用下面的图床来上传大图。
 
+- [`https://imgbox.com/`](https://imgbox.com/)
+
+图片格式要变更为 jpg, 限制为 200kb 以下。
+
+图床上传的图片，按照下面的方式来组织。
+
+通用图片:
+
+![alt文案](https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg)
+
+带链接图片:
+
+[![alt文案](https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg)](https://imgbox.com/Xc7Mq54c)

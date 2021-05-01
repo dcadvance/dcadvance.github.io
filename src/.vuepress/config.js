@@ -67,6 +67,5 @@ module.exports = {
   less: {
     javascriptEnabled: true
   },
-  plugins: ['@vuepress/active-header-links'],
   evergreen: false
 }
