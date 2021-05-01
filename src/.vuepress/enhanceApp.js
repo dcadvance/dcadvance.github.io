@@ -4,6 +4,7 @@ import langZH from 'vuetify/es5/locale/zh-Hans'
 import langDE from 'vuetify/es5/locale/de'
 import './common/index'
 import globalMixin from './mixin/global'
+import globalComps from './gcomps'
 
 const defaultLocale = 'zh'
 
@@ -23,6 +24,11 @@ export default ({
   // ...apply enhancements to the app
   Vue.use(Vuetify)
   Vue.mixin(globalMixin)
+
+  Object.keys(globalComps).forEach((name) => {
+    const comp = globalComps[name]
+    Vue.component(name, comp)
+  })
 
   options.vuetify = new Vuetify({
     icons: {

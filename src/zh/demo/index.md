@@ -12,11 +12,7 @@ title: 文档示例
 
 #### h4 标题
 
-<h3>不带锚点的标题</h3>
-
-<h3 class="k-tcenter"><a href="#中间呈现带锚点的标题" class="header-anchor">#</a> 中间呈现带锚点的标题</h3>
-
-<h3 class="k-tcenter">中间呈现不带锚点的标题</h3>
+<h3 class="k-tcenter">中间呈现的标题</h3>
 
 ---
 
@@ -128,3 +124,57 @@ title: 文档示例
   max-width="600"
   class="rounded-lg mb-4"
 ></v-img>
+
+指定宽高比并居中
+
+<v-img
+  :aspect-ratio="3/4"
+  max-width="300"
+  src="https://images2.imgbox.com/28/5e/HBXG1u9Q_o.jpg"
+  class="rounded-lg mb-4 k-center"
+></v-img>
+
+指定宽高比, 展示完整图片
+
+<v-img
+  :aspect-ratio="1/1"
+  max-width="300"
+  src="https://images2.imgbox.com/28/5e/HBXG1u9Q_o.jpg"
+  contain
+  class="grey darken-4 rounded-lg mb-4"
+></v-img>
+
+组图
+
+<div>
+  <v-row>
+    <v-flex
+      class="d-flex child-flex"
+    >
+      <v-img
+        src="https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg"
+        :aspect-ratio="1"
+        class="grey lighten-2"
+      />
+    </v-flex>
+    <v-flex
+      class="d-flex child-flex"
+    >
+      <v-img
+        src="https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg"
+        :aspect-ratio="1"
+        class="grey lighten-2"
+      />
+    </v-flex>
+    <v-flex
+      class="d-flex child-flex"
+    >
+      <v-img
+        src="https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg"
+        :aspect-ratio="1"
+        class="grey lighten-2"
+      />
+    </v-flex>
+  </v-row>
+</div>
+
