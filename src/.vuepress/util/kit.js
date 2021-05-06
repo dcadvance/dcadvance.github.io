@@ -22,7 +22,7 @@ export function getLangPath (instance, path) {
     return path
   }
   const loc = new Url(path)
-  if (loc.host !== location.host) {
+  if (typeof window !== 'undefined' && loc.host !== location.host) {
     return path
   }
   const curLang = instance.$lang
