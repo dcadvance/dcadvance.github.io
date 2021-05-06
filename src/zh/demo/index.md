@@ -103,10 +103,6 @@ title: 文档示例
 
 图床上传的图片，按照下面的方式来组织。
 
-标准通栏大图:
-
-![alt文案](https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg)
-
 带链接图片:
 
 [![alt文案](https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg)](https://imgbox.com/Xc7Mq54c)
@@ -128,7 +124,7 @@ title: 文档示例
 指定宽高比并居中
 
 <v-img
-  :aspect-ratio="3/4"
+  :aspect-ratio="1"
   max-width="300"
   src="https://images2.imgbox.com/28/5e/HBXG1u9Q_o.jpg"
   class="rounded-lg mb-4 k-center"
@@ -144,37 +140,81 @@ title: 文档示例
   class="grey darken-4 rounded-lg mb-4"
 ></v-img>
 
-组图
+标准通栏大图:
 
-<div>
-  <v-row>
-    <v-flex
-      class="d-flex child-flex"
-    >
-      <v-img
-        src="https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg"
-        :aspect-ratio="1"
-        class="grey lighten-2"
-      />
-    </v-flex>
-    <v-flex
-      class="d-flex child-flex"
-    >
-      <v-img
-        src="https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg"
-        :aspect-ratio="1"
-        class="grey lighten-2"
-      />
-    </v-flex>
-    <v-flex
-      class="d-flex child-flex"
-    >
-      <v-img
-        src="https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg"
-        :aspect-ratio="1"
-        class="grey lighten-2"
-      />
-    </v-flex>
-  </v-row>
-</div>
+![alt文案](https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg)
+
+二联组图
+
+<section class="v-imggroup-2 mb-4">
+  <v-img
+    src="https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg"
+    :aspect-ratio="16/9"
+    class="rounded-lg"
+  />
+  <v-img
+    src="https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg"
+    :aspect-ratio="16/9"
+    class="rounded-lg"
+  />
+  <v-img
+    src="https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg"
+    :aspect-ratio="16/9"
+    class="rounded-lg"
+  />
+  <v-img
+    src="https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg"
+    :aspect-ratio="16/9"
+    class="rounded-lg"
+  />
+</section>
+
+三联组图
+
+<section class="v-imggroup-3 mb-4">
+  <v-img
+    src="https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg"
+    :aspect-ratio="16/9"
+    class="rounded-lg"
+  />
+  <v-img
+    src="https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg"
+    :aspect-ratio="16/9"
+    class="rounded-lg"
+  />
+  <v-img
+    src="https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg"
+    :aspect-ratio="16/9"
+    class="rounded-lg"
+  />
+  <v-img
+    src="https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg"
+    :aspect-ratio="16/9"
+    class="rounded-lg"
+  />
+  <v-img
+    src="https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg"
+    :aspect-ratio="16/9"
+    class="rounded-lg"
+  />
+  <v-img
+    src="https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg"
+    :aspect-ratio="16/9"
+    class="rounded-lg"
+  />
+</section>
+
+三联组图带链接
+
+<section class="v-imggroup-3 mb-4">
+
+[![alt文案](https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg)](https://imgbox.com/Xc7Mq54c)
+
+[![alt文案](https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg)](https://imgbox.com/Xc7Mq54c)
+
+[![alt文案](https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg)](https://imgbox.com/Xc7Mq54c)
+
+[![alt文案](https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg)](https://imgbox.com/Xc7Mq54c)
+
+</section>
 

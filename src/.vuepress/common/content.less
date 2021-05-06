@@ -65,7 +65,7 @@
     position: absolute;
     right: 18px;
     margin-top: -24px;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.8);
     width: 20px;
     height: 20px;
     line-height: 20px;
@@ -80,6 +80,42 @@
 
   a img + span .sr-only{
     display: none;
+  }
+
+  .v-imggroup-2,
+  .v-imggroup-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    a img + span{
+      right: 4px;
+    }
+  }
+
+  .v-imggroup-2 > *,
+  .v-imggroup-3 > *{
+    display: block;
+    position: relative;
+    // flex: 0 0 auto;
+  }
+
+  .v-imggroup-2 > *{
+    width: 49%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+  }
+
+  .v-imggroup-2 > *:nth-child(2n){
+    margin-right: 0;
+  }
+
+  .v-imggroup-3 > *{
+    width: 32%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+  }
+  .v-imggroup-3 > *:nth-child(3n){
+    margin-right: 0;
   }
 }
 
