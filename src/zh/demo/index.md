@@ -118,6 +118,7 @@ title: 文档示例
 <v-img
   src="https://images2.imgbox.com/28/5e/HBXG1u9Q_o.jpg"
   max-width="600"
+  alt="alt信息"
   class="rounded-lg mb-4"
 ></v-img>
 
