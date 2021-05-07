@@ -61,7 +61,7 @@ module.exports = {
     }],
     ['link', {
       rel: 'dns-prefetch',
-      href: '//imgbox.com/'
+      href: 'https://img-1304915546.file.myqcloud.com'
     }]
   ],
   less: {

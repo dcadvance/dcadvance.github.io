@@ -107,18 +107,18 @@ title: 文档示例
 
 带链接图片:
 
-[![alt文案](https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg)](https://baidu.com)
+[![alt文案](https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg)](https://baidu.com)
 
 控制图片宽度:
 
 <div class="mb-4" style="max-width: 500px;">
-  <img alt="alt文案" src="https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg"/>
+  <img alt="alt文案" src="https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg"/>
 </div>
 
 `v-img` 图片组件:
 
 <v-img
-  src="https://images2.imgbox.com/28/5e/HBXG1u9Q_o.jpg"
+  src="https://img-1304915546.file.myqcloud.com/images/20210506-120k.jpg"
   max-width="600"
   alt="alt信息"
   class="rounded-lg mb-4"
@@ -129,7 +129,7 @@ title: 文档示例
 <v-img
   :aspect-ratio="1"
   max-width="300"
-  src="https://images2.imgbox.com/28/5e/HBXG1u9Q_o.jpg"
+  src="https://img-1304915546.file.myqcloud.com/images/20210506-120k.jpg"
   class="rounded-lg mb-4 k-center"
 ></v-img>
 
@@ -138,35 +138,35 @@ title: 文档示例
 <v-img
   :aspect-ratio="1/1"
   max-width="300"
-  src="https://images2.imgbox.com/28/5e/HBXG1u9Q_o.jpg"
+  src="https://img-1304915546.file.myqcloud.com/images/20210506-120k.jpg"
   contain
   class="grey darken-4 rounded-lg mb-4"
 ></v-img>
 
 标准通栏大图:
 
-![alt文案](https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg)
+![alt文案](https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg)
 
 二联组图
 
 <section class="v-imggroup-2 mb-4">
   <v-img
-    src="https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg"
+    src="https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg"
     :aspect-ratio="16/9"
     class="rounded-lg"
   />
   <v-img
-    src="https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg"
+    src="https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg"
     :aspect-ratio="16/9"
     class="rounded-lg"
   />
   <v-img
-    src="https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg"
+    src="https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg"
     :aspect-ratio="16/9"
     class="rounded-lg"
   />
   <v-img
-    src="https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg"
+    src="https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg"
     :aspect-ratio="16/9"
     class="rounded-lg"
   />
@@ -176,32 +176,32 @@ title: 文档示例
 
 <section class="v-imggroup-3 mb-4">
   <v-img
-    src="https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg"
+    src="https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg"
     :aspect-ratio="16/9"
     class="rounded-lg"
   />
   <v-img
-    src="https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg"
+    src="https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg"
     :aspect-ratio="16/9"
     class="rounded-lg"
   />
   <v-img
-    src="https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg"
+    src="https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg"
     :aspect-ratio="16/9"
     class="rounded-lg"
   />
   <v-img
-    src="https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg"
+    src="https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg"
     :aspect-ratio="16/9"
     class="rounded-lg"
   />
   <v-img
-    src="https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg"
+    src="https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg"
     :aspect-ratio="16/9"
     class="rounded-lg"
   />
   <v-img
-    src="https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg"
+    src="https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg"
     :aspect-ratio="16/9"
     class="rounded-lg"
   />
@@ -211,12 +211,12 @@ title: 文档示例
 
 <section class="v-imggroup-3 mb-4">
 
-[![alt文案](https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg)](https://baidu.com)
+[![alt文案](https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg)](https://baidu.com)
 
-[![alt文案](https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg)](https://baidu.com)
+[![alt文案](https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg)](https://baidu.com)
 
-[![alt文案](https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg)](https://baidu.com)
+[![alt文案](https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg)](https://baidu.com)
 
-[![alt文案](https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg)](https://baidu.com)
+[![alt文案](https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg)](https://baidu.com)
 
 </section>

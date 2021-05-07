@@ -33,14 +33,14 @@ title: 首页
 1. 乐理提高班   每周一次课  每次45分钟
 
 <v-img
-  src="https://images2.imgbox.com/fb/b9/ZDAUg7LO_o.jpg"
+  src="https://img-1304915546.file.myqcloud.com/images/20210506-lessons.jpg"
   max-width="276"
   alt="我们的课程"
   class="rounded-lg mb-4"
 ></v-img>
 
 <v-img
-  src="https://images2.imgbox.com/e1/16/maf30rEm_o.jpg"
+  src="https://img-1304915546.file.myqcloud.com/images/20210506-feature.jpg"
   max-width="636"
   alt="我们的优势"
   class="rounded-lg mb-4"
