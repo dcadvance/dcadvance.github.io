@@ -105,7 +105,7 @@ title: 文档示例
 
 带链接图片:
 
-[![alt文案](https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg)](https://imgbox.com/Xc7Mq54c)
+[![alt文案](https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg)](https://baidu.com)
 
 控制图片宽度:
 
@@ -209,13 +209,12 @@ title: 文档示例
 
 <section class="v-imggroup-3 mb-4">
 
-[![alt文案](https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg)](https://imgbox.com/Xc7Mq54c)
+[![alt文案](https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg)](https://baidu.com)
 
-[![alt文案](https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg)](https://imgbox.com/Xc7Mq54c)
+[![alt文案](https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg)](https://baidu.com)
 
-[![alt文案](https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg)](https://imgbox.com/Xc7Mq54c)
+[![alt文案](https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg)](https://baidu.com)
 
-[![alt文案](https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg)](https://imgbox.com/Xc7Mq54c)
+[![alt文案](https://images2.imgbox.com/f6/10/Xc7Mq54c_o.jpeg)](https://baidu.com)
 
 </section>
-
