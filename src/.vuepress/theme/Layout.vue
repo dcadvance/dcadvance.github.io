@@ -10,7 +10,10 @@
   <Header @navIconClick="onNavIconClick"/>
   <v-main class="l-wrapper p-main" :style="contentStyles">
     <v-container>
-      <v-row>
+      <div v-show="!ready" class="w-layout-loading">
+        <Loading/>
+      </div>
+      <v-row v-show="ready">
         <v-col
           cols="3"
           class="d-none d-md-block"
@@ -35,15 +38,18 @@ import Header from '../comps/header'
 import Sider from '../comps/sider'
 import Footer from '../comps/footer'
 import BackToTop from '../comps/back-to-top'
+import Loading from '../comps/loading'
 
 export default {
   components: {
     Header,
     Sider,
+    Loading,
     BackToTop,
     Footer
   },
   data: () => ({
+    ready: false,
     drawer: null,
     contentStyles: {
       'padding-left': 0
@@ -63,6 +69,9 @@ export default {
     onNavIconClick () {
       this.drawer = !this.drawer
     }
+  },
+  mounted () {
+    this.ready = true
   }
 }
 </script>
@@ -70,6 +79,20 @@ export default {
 <style lang="less">
 .p-main{
   width: 100%;
+  position: relative;
+}
+.w-layout-loading{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  top: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
+  svg{
+    width: 80px;
+    height: 80px;
+  }
 }
 @media (min-width: 960px) {
   .container {

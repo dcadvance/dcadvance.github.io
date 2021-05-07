@@ -139,7 +139,6 @@ export default {
   },
   mounted () {
     this.initLocale()
-    console.log('this.$route.path', this.$route.path)
   }
 }
 </script>
