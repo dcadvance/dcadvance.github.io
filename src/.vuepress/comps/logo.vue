@@ -4,7 +4,7 @@
     src="/imgs/android-chrome-512x512.png"
     class="image"
   ></v-img>
-  <h3 class="title">DCFE</h3>
+  <h3 class="title">DCFV</h3>
 </router-link>
 </template>
 

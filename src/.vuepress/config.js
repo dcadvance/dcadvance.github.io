@@ -14,8 +14,8 @@ localeList.forEach(conf => {
 })
 
 module.exports = {
-  title: 'DCFE',
-  description: 'Deutsch-chinesischer kultureller und künstlerischer Austausch, Integration und Förderung.',
+  title: 'DCFV',
+  description: 'Deutsch-Chinesischer Förderverein Erlangen e.V.',
   dest: 'dist',
   locales,
   head: [

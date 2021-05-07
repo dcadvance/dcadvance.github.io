@@ -2,9 +2,9 @@ const config = {
   home: '/de/',
   lang: 'de',
   selectText: 'Deutsch',
-  title: 'DCFE',
+  title: 'DCFV',
   homeButtonText: 'HOME',
-  description: 'Deutsch-chinesischer kultureller und künstlerischer Austausch, Integration und Förderung.',
+  description: 'Deutsch-Chinesischer Förderverein Erlangen e.V.',
   // 导航列表
   navList: [{
     title: 'Our Lessons',

@@ -44,7 +44,7 @@ import {
   getSiteTitle
 } from '../util/kit'
 
-const useFacebook = true
+const useFacebook = false
 const useTwitter = false
 
 export default {
