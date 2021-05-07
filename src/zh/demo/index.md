@@ -93,11 +93,13 @@ title: 文档示例
 
 大图不要存放在站点下面，github 可存储空间有限，资源占用过量会导致站点无法更新。
 
-使用下面的图床来上传大图。
+使用 [腾讯云的COS服务](https://cloud.tencent.com/product/cos) 来存储图片。
 
-- [`https://imgbox.com/`](https://imgbox.com/)
+使用 [COSBrowser](https://cloud.tencent.com/document/product/436/11366) 工具来上传图片。
 
-图片格式要变更为 jpg, 限制为 200kb 以下。
+使用 [数据万象](https://cloud.tencent.com/product/ci/pricing) 服务来提供不同的图片尺寸。
+
+图片格式，除非要求半透明，否则都要变更为 jpg, 限制为 200kb 以下。
 
 图片压缩可以使用在线工具: [`https://squoosh.xiaoxili.com/`](https://squoosh.xiaoxili.com/)
 
