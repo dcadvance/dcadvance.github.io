@@ -39,7 +39,7 @@ git clone git@github.com:dcadvance/dcadvance.github.io.git
 进入工作目录，安装程序依赖
 
 ```bash
-cd dcadvance.github.io.git
+cd dcadvance.github.io
 npm i
 ```
 
