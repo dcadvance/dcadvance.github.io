@@ -5,11 +5,9 @@
     v-scroll="onScroll"
     class="mx-2 w-gotop"
     fab
-    dark
-    color="indigo"
     @click="onClick"
   >
-    <v-icon dark>
+    <v-icon large>
       {{icons.mdiChevronUp}}
     </v-icon>
   </v-btn>
@@ -51,5 +49,13 @@ export default {
   right: 20px;
   bottom: 40px;
   z-index: 100;
+}
+.l-wrapper .v-main .w-gotop{
+  background-color: #fff;
+  background-image: url(https://img-1304915546.file.myqcloud.com/images/20210520-plate.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  color: #000;
 }
 </style>
