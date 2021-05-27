@@ -99,7 +99,7 @@ title: 文档示例
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
-## 组图
+## 大图
 
 大图不要存放在站点下面，github 可存储空间有限，资源占用过量会导致站点无法更新。
 
@@ -115,7 +115,7 @@ title: 文档示例
 
 图床上传的图片，按照下面的方式来组织。
 
-带链接图片:
+带外链图片:
 
 [![alt文案](https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg)](https://baidu.com)
 
@@ -156,6 +156,8 @@ title: 文档示例
 标准通栏大图:
 
 ![alt文案](https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg)
+
+## 组图
 
 二联组图
 
@@ -217,11 +219,37 @@ title: 文档示例
   />
 </section>
 
-三联组图带链接
+三联组图带外链
 
 <section class="v-imggroup-3 mb-4">
 
 [![alt文案](https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg)](https://baidu.com)
+
+[![alt文案](https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg)](https://baidu.com)
+
+[![alt文案](https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg)](https://baidu.com)
+
+[![alt文案](https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg)](https://baidu.com)
+
+</section>
+
+## 响应式组图
+
+响应式组图在大屏会以组图方式展现。在小屏会纵向排列，等同于通栏大图。
+
+二联响应式组图
+
+<section class="v-imgresponse-2 mb-4">
+
+[![alt文案](https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg)](https://baidu.com)
+
+[![alt文案](https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg)](https://baidu.com)
+
+</section>
+
+三联响应式组图
+
+<section class="v-imgresponse-3 mb-4">
 
 [![alt文案](https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg)](https://baidu.com)
 
