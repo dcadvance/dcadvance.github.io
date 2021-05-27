@@ -24,6 +24,16 @@ title: 文档示例
   class="k-center mb-4"
 ></v-img>
 
+## BANNER
+
+![埃尔朗根德中促进协会](https://img-1304915546.file.myqcloud.com/images/20210520-banner1.jpg)
+
+![埃尔朗根德中促进协会](https://img-1304915546.file.myqcloud.com/images/20210520-banner2.jpg)
+
+![埃尔朗根德中促进协会](https://img-1304915546.file.myqcloud.com/images/20210520-banner3.jpg)
+
+![埃尔朗根德中促进协会](https://img-1304915546.file.myqcloud.com/images/20210520-banner4.jpg)
+
 ## 文字
 
 简短文字
