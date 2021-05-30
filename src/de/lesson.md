@@ -1,3 +1,3 @@
-# Our Lessons
+# Unsere Kurses
 
 TODO...

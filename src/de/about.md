@@ -1,3 +1,3 @@
-# About US
+# über uns
 
 TODO...

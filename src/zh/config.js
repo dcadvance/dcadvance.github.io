@@ -18,17 +18,17 @@ const config = {
     title: '我们的活动',
     url: '/activity.html'
   }, {
-    title: '学习园地',
-    url: '/learn.html'
-  }, {
-    title: '互助与关怀',
-    url: '/care.html'
+    title: '时间表',
+    url: '/schedule.html'
   }, {
     title: '关于我们',
     url: '/about.html'
   }, {
-    title: '下载专区',
+    title: '文件下载',
     url: '/download.html'
+  }, {
+    title: '联系我们',
+    url: '/contact.html'
   }]
 }
 

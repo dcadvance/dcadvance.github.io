@@ -7,23 +7,23 @@ const config = {
   description: 'Deutsch-Chinesischer Förderverein Erlangen e.V.',
   // 导航列表
   navList: [{
-    title: 'Our Lessons',
+    title: 'Unsere Kurses',
     url: '/lesson.html'
   }, {
-    title: 'Our Activities',
+    title: 'Veranstaltung',
     url: '/activity.html'
   }, {
-    title: 'Learn Park',
-    url: '/learn.html'
+    title: 'Kalender',
+    url: '/schedule.html'
   }, {
-    title: 'Care EachOther',
-    url: '/care.html'
-  }, {
-    title: 'About US',
+    title: 'über uns',
     url: '/about.html'
   }, {
-    title: 'Download',
+    title: 'Downloads',
     url: '/download.html'
+  }, {
+    title: 'Kontak',
+    url: '/contact.html'
   }]
 }
 
