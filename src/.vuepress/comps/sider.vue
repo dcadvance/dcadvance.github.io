@@ -1,5 +1,5 @@
 <template>
-<v-card class="p-sider">
+<v-card class="p-sider sticky">
   <div class="d-block d-md-none">
     <div class="p-sider-head">
       <Logo/>
@@ -24,6 +24,7 @@
 </template>
 
 <script>
+import Stickyfill from 'stickyfilljs'
 import Logo from './logo'
 
 export default {
@@ -45,6 +46,9 @@ export default {
       })
       return linkList
     }
+  },
+  mounted () {
+    Stickyfill.add(this.$el)
   }
 }
 </script>
@@ -65,6 +69,13 @@ export default {
     .v-btn:hover{
       background-color: initial;
     }
+  }
+}
+
+@media (min-width: 960px) {
+  .p-sider {
+    position: sticky;
+    top: 76px;
   }
 }
 </style>
