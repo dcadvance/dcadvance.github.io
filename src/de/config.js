@@ -16,7 +16,7 @@ const config = {
     title: 'Kalender',
     url: '/schedule.html'
   }, {
-    title: 'über uns',
+    title: 'Über uns',
     url: '/about.html'
   }, {
     title: 'Downloads',
