@@ -9,3 +9,13 @@ Das Chinese Learning Center Erlangen ist eine gemeinnützige BildungsInstitution
 1 Vorstand：Ji，Lei
 
 2 Vorstand：Guo，Yi
+
+Standort:
+
+Standort 1: Kulturpunkt Bruck Fröbelstraße 6,91058 Erlangen
+
+![addr1](https://img-1304915546.file.myqcloud.com/images/20210530-address1.jpg)
+
+Standort 2: Schützenheim Kernbergstraße 11, 91056 Erlangen
+
+![addr2](https://img-1304915546.file.myqcloud.com/images/20210530-address2.jpg)

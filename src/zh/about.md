@@ -9,3 +9,13 @@
 协会会长：吉蕾
 
 协会副会长：郭毅
+
+地址：
+
+Standort 1: Kulturpunkt Bruck Fröbelstraße 6,91058 Erlangen
+
+![addr1](https://img-1304915546.file.myqcloud.com/images/20210530-address1.jpg)
+
+Standort 2: Schützenheim Kernbergstraße 11, 91056 Erlangen
+
+![addr2](https://img-1304915546.file.myqcloud.com/images/20210530-address2.jpg)
