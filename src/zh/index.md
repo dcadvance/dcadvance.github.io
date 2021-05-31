@@ -4,7 +4,7 @@ title: 首页
 
 # 埃尔朗根德中促进协会
 
-![埃尔朗根德中促进协会](https://img-1304915546.file.myqcloud.com/images/20210520-banner3.jpg)
+![埃尔朗根德中促进协会](https://img-1304915546.file.myqcloud.com/images/20210520-banner5.jpg)
 
 ## 协会简介
 

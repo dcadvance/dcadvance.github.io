@@ -4,7 +4,7 @@ title: home
 
 # Deutsch-Chinesischer Förderverein Erlangen e.V.
 
-![Deutsch-Chinesischer Förderverein Erlangen e.V.](https://img-1304915546.file.myqcloud.com/images/20210520-banner3.jpg)
+![Deutsch-Chinesischer Förderverein Erlangen e.V.](https://img-1304915546.file.myqcloud.com/images/20210520-banner5.jpg)
 
 ## Überblick des Vereins
 
