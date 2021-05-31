@@ -30,6 +30,11 @@
     <BackToTop/>
   </v-main>
   <Footer></Footer>
+  <div class="w-layout-async">
+    <no-ssr>
+      <AsyncRoot/>
+    </no-ssr>
+  </div>
 </v-app>
 </template>
 
@@ -40,14 +45,20 @@ import Footer from '../comps/footer'
 import BackToTop from '../comps/back-to-top'
 import Loading from '../comps/loading'
 
+const components = {
+  Header,
+  Sider,
+  Loading,
+  BackToTop,
+  Footer
+}
+
+if (typeof window !== 'undefined') {
+  components.AsyncRoot = () => import('../comps/async-root')
+}
+
 export default {
-  components: {
-    Header,
-    Sider,
-    Loading,
-    BackToTop,
-    Footer
-  },
+  components,
   data: () => ({
     ready: false,
     drawer: null,
@@ -93,6 +104,9 @@ export default {
     width: 80px;
     height: 80px;
   }
+}
+.w-layout-async{
+  display: none;
 }
 @media (min-width: 960px) {
   .container {
