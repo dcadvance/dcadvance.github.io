@@ -5,7 +5,6 @@ import langDE from 'vuetify/es5/locale/de'
 import './common/index'
 import globalMixin from './mixin/global'
 import globalComps from './gcomps'
-import ba from 'vue-ba'
 
 const defaultLocale = 'zh'
 
@@ -25,7 +24,6 @@ export default ({
   // ...apply enhancements to the app
   Vue.use(Vuetify)
   Vue.mixin(globalMixin)
-  Vue.use(ba, 'e752f3484a16f1da6c1669cb998d98e3')
 
   Object.keys(globalComps).forEach((name) => {
     const comp = globalComps[name]

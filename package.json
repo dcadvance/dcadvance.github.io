@@ -26,7 +26,6 @@
     "stickyfilljs": "^2.1.0",
     "url-join": "^4.0.1",
     "url-parse": "^1.5.1",
-    "vue-ba": "^1.2.8",
     "vue-no-ssr": "^1.1.1",
     "vuetify": "^2.4.4"
   },
