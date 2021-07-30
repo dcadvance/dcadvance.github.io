@@ -14,7 +14,7 @@ title: 首页
   src="https://img-1304915546.file.myqcloud.com/images/20210530-lessons.png"
   max-width="600"
   alt="lessons"
-  class="rounded-lg mb-4"
+  class="rounded-lg mb-4 k-center"
 ></v-img>
 
 <section class="v-imgresponse-3 mb-4">
