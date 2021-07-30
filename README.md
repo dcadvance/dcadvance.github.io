@@ -1,5 +1,7 @@
 # dcadvance.github.io
 
+[![GitHub Pages Actions](https://github.com/dcadvance/dcadvance.github.io/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/dcadvance/dcadvance.github.io/actions/workflows/node.js.yml)
+
 site: [dcadvance](https://dcadvance.github.io/)
 
 ## 维护说明
