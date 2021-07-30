@@ -1,15 +1,6 @@
 <template>
 <v-app class="l-wrapper">
   <div class="w-layout-async">
-    <script>
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?e752f3484a16f1da6c1669cb998d98e3";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-    </script>
     <no-ssr>
       <AsyncRoot/>
     </no-ssr>

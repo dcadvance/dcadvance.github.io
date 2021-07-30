@@ -62,7 +62,18 @@ module.exports = {
     ['link', {
       rel: 'dns-prefetch',
       href: 'https://img-1304915546.file.myqcloud.com'
-    }]
+    }],
+    ['script', {
+      type: 'text/javascript'
+    }, `
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?e752f3484a16f1da6c1669cb998d98e3";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+    `]
   ],
   less: {
     javascriptEnabled: true
