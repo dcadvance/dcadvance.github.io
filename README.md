@@ -2,7 +2,10 @@
 
 [![GitHub Pages Actions](https://github.com/dcadvance/dcadvance.github.io/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/dcadvance/dcadvance.github.io/actions/workflows/node.js.yml)
 
-site: [dcadvance](https://dcadvance.github.io/)
+domain:
+
+- [dcadvance.github.io](https://dcadvance.github.io/)
+- [www.dcfv-erlangen.de](https://www.dcfv-erlangen.de/)
 
 ## 维护说明
 
