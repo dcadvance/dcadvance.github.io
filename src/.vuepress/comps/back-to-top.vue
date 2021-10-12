@@ -52,7 +52,7 @@ export default {
 }
 .l-wrapper .v-main .w-gotop{
   background-color: #fff;
-  background-image: url(https://img-1304915546.file.myqcloud.com/images/20210520-plate.png);
+  background-image: url(https://img-1304915546.file.myqcloud.com/images/20210520/plate.png);
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: #fff;

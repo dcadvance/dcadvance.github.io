@@ -12,13 +12,13 @@
 
 ## BANNER
 
-![埃尔朗根德中促进协会](https://img-1304915546.file.myqcloud.com/images/20210520-banner1.jpg)
+![埃尔朗根德中促进协会](https://img-1304915546.file.myqcloud.com/images/20210520/banner1.jpg)
 
-![埃尔朗根德中促进协会](https://img-1304915546.file.myqcloud.com/images/20210520-banner2.jpg)
+![埃尔朗根德中促进协会](https://img-1304915546.file.myqcloud.com/images/20210520/banner2.jpg)
 
-![埃尔朗根德中促进协会](https://img-1304915546.file.myqcloud.com/images/20210520-banner3.jpg)
+![埃尔朗根德中促进协会](https://img-1304915546.file.myqcloud.com/images/20210520/banner3.jpg)
 
-![埃尔朗根德中促进协会](https://img-1304915546.file.myqcloud.com/images/20210520-banner4.jpg)
+![埃尔朗根德中促进协会](https://img-1304915546.file.myqcloud.com/images/20210520/banner4.jpg)
 
 ---
 
@@ -40,18 +40,18 @@
 
 带外链图片:
 
-[![alt文案](https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg)](https://baidu.com)
+[![alt文案](https://img-1304915546.file.myqcloud.com/images/20210506/100k.jpg)](https://baidu.com)
 
 控制图片宽度:
 
 <div class="mb-4" style="max-width: 500px;">
-  <img alt="alt文案" src="https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg"/>
+  <img alt="alt文案" src="https://img-1304915546.file.myqcloud.com/images/20210506/100k.jpg"/>
 </div>
 
 `v-img` 图片组件:
 
 <v-img
-  src="https://img-1304915546.file.myqcloud.com/images/20210506-120k.jpg"
+  src="https://img-1304915546.file.myqcloud.com/images/20210506/120k.jpg"
   max-width="600"
   alt="alt信息"
   class="rounded-lg mb-4"
@@ -62,7 +62,7 @@
 <v-img
   :aspect-ratio="1"
   max-width="300"
-  src="https://img-1304915546.file.myqcloud.com/images/20210506-120k.jpg"
+  src="https://img-1304915546.file.myqcloud.com/images/20210506/120k.jpg"
   class="rounded-lg mb-4 k-center"
 ></v-img>
 
@@ -71,11 +71,11 @@
 <v-img
   :aspect-ratio="1/1"
   max-width="300"
-  src="https://img-1304915546.file.myqcloud.com/images/20210506-120k.jpg"
+  src="https://img-1304915546.file.myqcloud.com/images/20210506/120k.jpg"
   contain
   class="grey darken-4 rounded-lg mb-4"
 ></v-img>
 
 标准通栏大图:
 
-![alt文案](https://img-1304915546.file.myqcloud.com/images/20210506-100k.jpg)
+![alt文案](https://img-1304915546.file.myqcloud.com/images/20210506/100k.jpg)
