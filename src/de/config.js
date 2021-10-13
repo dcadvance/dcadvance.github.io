@@ -19,11 +19,17 @@ const config = {
     title: 'Über uns',
     url: '/about.html'
   }, {
-    title: 'Downloads',
+    title: 'Dokumente und Downloads',
     url: '/download.html'
+  }, {
+    title: 'Hilfeinformationen',
+    url: '/assis-info.html'
   }, {
     title: 'Kontak',
     url: '/contact.html'
+  }, {
+    title: 'Spenden',
+    url: '/donation.html'
   }]
 }
 

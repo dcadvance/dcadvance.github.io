@@ -18,17 +18,23 @@ const config = {
     title: '我们的活动',
     url: '/activity.html'
   }, {
-    title: '时间表',
+    title: '日程表',
     url: '/schedule.html'
   }, {
     title: '关于我们',
     url: '/about.html'
   }, {
-    title: '文件下载',
+    title: '文件和下载',
     url: '/download.html'
+  }, {
+    title: '互助信息',
+    url: '/assis-info.html'
   }, {
     title: '联系我们',
     url: '/contact.html'
+  }, {
+    title: '爱心捐赠',
+    url: '/donation.html'
   }]
 }
 
