@@ -2,14 +2,9 @@
 
 ## 协会简介
 
-Überblick des Vereins
 埃尔朗根德中促进协会，简称DCFV（Deutsch-Chinesischer Förderverein Erlangen e.V.）， 是一个菲尔特法庭注册的公益性社会团体，建立于2021年。本协会的宗旨是通过开设课程、讲座，举办活动和假期项目等方式，加深德中在语言、文化、艺术等领域的交流，促进不同文化背景下的人们的沟通，增进德中两国友谊。本协会服务的主要群体是在德（纽伦堡大区内）的儿童、青少年和成人。本协会致力于为所有对中国感兴趣的人们提供一个平台，让他们有更多的汉语学习机会，从而多维度地了感受和了解中国。同时，我们也为来德华人家庭提供帮助，让他们更好地融入德国的生活。
 
-Deutsch-Chinesischer Förderverein Erlangen e.V. ist ein gemeinnütziger Verein, der im Jahr 2021 gegründet wurde und beim Amtsgericht Fürth eingetragen ist. Der Zweck des Vereins ist, durch das Angebot von Kursen, Vorträgen, Veranstaltungen und Ferienprojekten sollten der Austausch zwischen Deutschland und China in den Bereichen Sprache, Kultur und Kunst vertieft, die Kommunikation zwischen Menschen unterschiedlicher Herkunftskulturen verbessert, die Freundschaft zwischen Deutschland und China gefördert werden. Die Zielgruppen dieses Vereins sind Kinder, Jugendliche und Erwachsenen im Großraum Nürnberg. Unser Verein bietet eine Plattform für alle Menschen, die sich für China interessieren, denen mehr Möglichkeiten zu geben, Chinesisch zu erlernen, China in mehreren Dimensionen zu erleben und zu verstehen. Darüber hinaus unterstützt der Verein die chinesischen Familien in Deutschland bei der Integration.
-
 爱城中文学习中心是由埃尔朗根德中促进协会开办的培训机构。主要为在德（纽伦堡大区）内儿童、青少年提供中文和兴趣课程。同时举办中国主题活动、节日庆祝、公开见面会、作品展览、竞赛及假期项目等。
-
-Unser Verein strebt es an ein Chinese Learning Center Erlangen zu etablieren. Das Chinese Learning Center Erlangen bietet hauptsächlich Chinesisch und Interessenkurse für Kinder und Jugendlichen in Deutschland (Region Nürnberg) an. Gleichzeitig organisiert und veranstaltet der Verein chinesische Themenveranstaltungen, traditionelle Feiertagsfeste ，öffentliche Treffen, Wettbewerbe und Ferienprojekte usw.
 
 ## 协会成员
 
