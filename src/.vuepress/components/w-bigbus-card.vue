@@ -1,6 +1,6 @@
 <template>
 <v-card
-  class="mx-auto w-business-card mb-4"
+  class="mx-auto w-bigbus-card mb-4"
   outlined
 >
   <v-list-item>
@@ -23,6 +23,11 @@
       >
         {{subtitle}}
       </v-card-subtitle>
+      <v-img
+        :src="avatar"
+        class="d-block d-md-none k-center"
+        max-width="240"
+      ></v-img>
       <v-card-text>
         <slot></slot>
       </v-card-text>
@@ -31,6 +36,7 @@
       tile
       rounded
       v-if="avatar"
+      class="d-none d-md-block"
     >
       <v-img :src="avatar"></v-img>
     </v-list-item-avatar>
@@ -64,33 +70,17 @@ export default {
 </script>
 
 <style lang="less">
-.w-business-card {
+.w-bigbus-card {
   .v-list-item__avatar{
     width: 90px !important;
     height: 120px !important;
   }
 }
-.v-imgresponse-2{
-  .w-business-card {
-    .v-list-item__avatar{
-      width: 90px !important;
-      height: 120px !important;
-    }
-  }
-}
 @media only screen and (min-width: 767px) {
-  .w-business-card {
+  .w-bigbus-card {
     .v-list-item__avatar{
       width: 180px !important;
       height: 240px !important;
-    }
-  }
-  .v-imgresponse-2{
-    .w-business-card {
-      .v-list-item__avatar{
-        width: 180px !important;
-        height: 240px !important;
-      }
     }
   }
 }
