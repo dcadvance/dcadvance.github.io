@@ -12,7 +12,7 @@
   src="https://img-1304915546.file.myqcloud.com/images/20211013/lesson-intro.jpg"
 ></v-img>
 
-## 1 中文成长班
+## 中文成长班
 
 中文成长班（5岁及以上） 每周一次课  每次60分钟  小班课（6-8人）
 
@@ -26,7 +26,7 @@ Chinesisch Kurs für Vorschulkinder (ab 5 Jahre) Kleiner Gruppe (6-8 Teilnehmer)
 - 使用教材：《幼小衔接 阶梯教程 识字》
 - 课程形式：实体课（6-8人）如受疫情影响转网课
 
-## 2 中文启航班 1
+## 中文启航班 1
 
 中文启航班1（6岁及以上）每周一次课 每次90分钟  小班课（6-8人）
 
@@ -40,7 +40,7 @@ Chinesisch Kurs für Kinder Stufe 1 (ab 6 Jahre) , Kleiner Gruppe (6-8 Teilnehme
 - 使用教材：部编版《语文》一年级 上册
 - 课程形式：实体课（6-8人）如受疫情影响转网课
 
-## 3 中文启航班 2
+## 中文启航班 2
 
 中文启航班 2（7岁及以上）每周一次课 每次90分钟 小班课（6-8人）
 
