@@ -1,6 +1,6 @@
 # Veranstaltung
 
-![act0](https://img-1304915546.file.myqcloud.com/images/20211014/act-0.jpg)
+![activity](https://img-1304915546.file.myqcloud.com/images/20211014/act-0.jpg)
 
 ## 森林公开课“拯救森林计划”
 

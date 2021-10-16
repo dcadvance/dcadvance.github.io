@@ -26,7 +26,7 @@ Chinesisch Kurs für Vorschulkinder (ab 5 Jahre) Kleiner Gruppe (6-8 Teilnehmer)
 - 使用教材：《幼小衔接 阶梯教程 识字》
 - 课程形式：实体课（6-8人）如受疫情影响转网课
 
-## 2 中文启航班1
+## 2 中文启航班 1
 
 中文启航班1（6岁及以上）每周一次课 每次90分钟  小班课（6-8人）
 
@@ -77,8 +77,8 @@ Chinesisch Kurs für Kinder Stufe 2 (ab 7 Jahre), Kleiner Gruppe (6-8 Teilnehmer
 - 中文水平:
 - 报名课程:
   - 中文成长班（5-6岁）Chinesisch für Vorschulkinder
-  - 中文启航班1（6岁以上）Chinesisch Stufe 2 für Kinder
-  - 中文启航2（7岁以上）Chinesisch Stufe 2 für Kinder
+  - 中文启航班 1（6岁以上）Chinesisch Stufe 1 für Kinder
+  - 中文启航班 2（7岁以上）Chinesisch Stufe 2 für Kinder
 - 联系邮箱:
 - 联系电话（必填）:
 - 备注:
