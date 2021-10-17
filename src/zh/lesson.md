@@ -59,13 +59,27 @@ Chinesisch Kurs für Kinder Stufe 2 (ab 7 Jahre), Kleiner Gruppe (6-8 Teilnehmer
 - Kulturpunkt Bruck
 - Fröbelstraße 6,91058 Erlangen
 
-![实体课地址](https://img-1304915546.file.myqcloud.com/images/20211013/address.jpg) 实体课地址
+![实体课地址](https://img-1304915546.file.myqcloud.com/images/20211013/address.jpg)
 
-![上课教室](https://img-1304915546.file.myqcloud.com/images/20211013/classroom-outside.jpg) 上课教室
+实体课地址
 
-![专用停车场](https://img-1304915546.file.myqcloud.com/images/20211013/parking-lot.jpg) 专用停车场
+![上课教室](https://img-1304915546.file.myqcloud.com/images/20211013/classroom-outside.jpg)
 
-![教室内部](https://img-1304915546.file.myqcloud.com/images/20211013/classroom-inside.jpg) 教室内部
+上课教室
+
+![专用停车场](https://img-1304915546.file.myqcloud.com/images/20211013/parking-lot.jpg)
+
+专用停车场
+
+<v-img
+  class="mb-4"
+  max-width="480"
+  src="https://img-1304915546.file.myqcloud.com/images/20211013/classroom-inside.jpg"
+></v-img>
+
+教室内部
+
+------
 
 ## 课程报名
 
