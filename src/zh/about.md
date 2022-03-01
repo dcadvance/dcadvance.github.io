@@ -6,23 +6,28 @@
 
 爱城中文学习中心是由埃尔朗根德中促进协会开办的培训机构。主要为在德（纽伦堡大区）内儿童、青少年提供中文和兴趣课程。同时举办中国主题活动、节日庆祝、公开见面会、作品展览、竞赛及假期项目等。
 
-## 协会成员
+## 理事会成员
 
 <section class="v-imgresponse-2 mb-4">
   <w-business-card
     name="吉蕾"
-    title="协会会长"
+    title="Vorstand"
     avatar="https://img-1304915546.file.myqcloud.com/images/20211015/jilei.jpg"
   ></w-business-card>
   <w-business-card
     name="郭毅"
-    title="协会副会长"
+    title="Vorstand"
     avatar="https://img-1304915546.file.myqcloud.com/images/20211015/guoyi.jpg"
   ></w-business-card>
   <w-business-card
-    name="林爱玉"
-    title="对外联络及成人活动负责人"
-    avatar="https://img-1304915546.file.myqcloud.com/images/20211015/linaiyu.jpg"
+    name="方芳"
+    title="财务负责人"
+    avatar="https://img-1304915546.file.myqcloud.com/images/20220301/p1.jpg"
+  ></w-business-card>
+  <w-business-card
+    name="邱诗恩"
+    title="音乐方向负责人"
+    avatar="https://img-1304915546.file.myqcloud.com/images/20220301/p2.jpg"
   ></w-business-card>
   <w-business-card
     style="visibility: hidden;"

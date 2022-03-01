@@ -6,7 +6,7 @@ Deutsch-Chinesischer Förderverein Erlangen e.V. ist ein gemeinnütziger Verein,
 
 Unser Verein strebt es an ein Chinese Learning Center Erlangen zu etablieren. Das Chinese Learning Center Erlangen bietet hauptsächlich Chinesisch und Interessenkurse für Kinder und Jugendlichen in Deutschland (Region Nürnberg) an. Gleichzeitig organisiert und veranstaltet der Verein chinesische Themenveranstaltungen, traditionelle Feiertagsfeste ，öffentliche Treffen, Wettbewerbe und Ferienprojekte usw.
 
-## 协会成员
+## Vorstandsmitgliede
 
 <section class="v-imgresponse-2 mb-4">
   <w-business-card
@@ -20,10 +20,14 @@ Unser Verein strebt es an ein Chinese Learning Center Erlangen zu etablieren. Da
     avatar="https://img-1304915546.file.myqcloud.com/images/20211015/guoyi.jpg"
   ></w-business-card>
   <w-business-card
-    name="Lin,Aiyue"
-    title="Externer Koordinator"
-    subtitle="Verantwortlicher Erwachsener für Aktivitäten"
-    avatar="https://img-1304915546.file.myqcloud.com/images/20211015/linaiyu.jpg"
+    name="Fang,F"
+    title="Schatzmeister"
+    avatar="https://img-1304915546.file.myqcloud.com/images/20220301/p1.jpg"
+  ></w-business-card>
+  <w-business-card
+    name="CHIU,SHIH-EN"
+    title="Leiter Musikrichtung"
+    avatar="https://img-1304915546.file.myqcloud.com/images/20220301/p2.jpg"
   ></w-business-card>
   <w-business-card
     style="visibility: hidden;"
