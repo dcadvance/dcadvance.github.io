@@ -1,16 +1,12 @@
 # 我们的课程
 
-<v-img
-  class="mb-4 k-center"
-  max-width="480"
-  src="https://img-1304915546.file.myqcloud.com/images/20211013/lesson1.jpg"
-></v-img>
+<section class="v-imgresponse-2 mb-4">
 
-<v-img
-  class="mb-4 k-center"
-  max-width="492"
-  src="https://img-1304915546.file.myqcloud.com/images/20211013/lesson-intro.jpg"
-></v-img>
+![alt文案](https://img-1304915546.file.myqcloud.com/images/20220301/lesson1.jpg)
+
+![alt文案](https://img-1304915546.file.myqcloud.com/images/20220301/lesson2.jpg)
+
+</section>
 
 ## 中文成长班
 
@@ -22,7 +18,7 @@ Chinesisch Kurs für Vorschulkinder (ab 5 Jahre) Kleiner Gruppe (6-8 Teilnehmer)
 
 - 招收对象：5岁及以上（2016年12月31日前出生）
 - 基本要求： 能使用简单汉语交流。有一定的自控和自理能力。
-课程重点：识字为主，进行控笔训练。日常会话，词汇量扩展。听故事能回答问题，可以读简- 单的故事。认识汉字基本笔画和偏旁部首。
+- 课程重点：识字为主，进行控笔训练。日常会话，词汇量扩展。听故事能回答问题，可以读简单的故事。认识汉字基本笔画和偏旁部首。
 - 使用教材：《幼小衔接 阶梯教程 识字》
 - 课程形式：实体课（6-8人）如受疫情影响转网课
 
@@ -50,7 +46,7 @@ Chinesisch Kurs für Kinder Stufe 2 (ab 7 Jahre), Kleiner Gruppe (6-8 Teilnehmer
 
 - 招收对象：7岁及以上
 - 基本要求： 认识和会写一年级上册常用汉字，可以独立熟练阅读上册的课文。书写熟练。掌握汉语拼音。
-课程重点：认识550个汉字，会写其中250个。带有感情地朗读课文。在看图写话中运用和阅读生活中学到的词语。根据表达需要，正确使用常用标点符号。
+- 课程重点：认识550个汉字，会写其中250个。带有感情地朗读课文。在看图写话中运用和阅读生活中学到的词语。根据表达需要，正确使用常用标点符号。
 - 使用教材：部编版《语文》一年级 上册
 - 课程形式：网课（6-8人）有教室即转实体
 

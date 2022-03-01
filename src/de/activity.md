@@ -1,63 +1,31 @@
 # Veranstaltung
 
-![activity](https://img-1304915546.file.myqcloud.com/images/20211014/act-0.jpg)
+<v-img
+  src="https://img-1304915546.file.myqcloud.com/images/20211014/act-0.jpg"
+  max-width="480"
+  class="k-center mb-4"
+></v-img>
 
-## 森林公开课“拯救森林计划”
-
-协会成立首次活动：森林公开课“拯救森林计划” 于 2021年8月7日圆满完成。
+## [春节庆祝活动](/de/blogs/202202011200)
 
 <v-img
   class="mb-4"
-  src="https://img-1304915546.file.myqcloud.com/images/20211014/act1.jpg"
+  max-width="300"
+  src="https://img-1304915546.file.myqcloud.com/images/20220301/newyear.jpg"
 ></v-img>
+
+## [春节年画征集评选](/de/blogs/202202011000)
 
 <v-img
-  class="mb-4 k-center"
-  max-width="480"
-  src="https://img-1304915546.file.myqcloud.com/images/20211014/act2.jpg"
+  class="mb-4"
+  max-width="300"
+  src="https://img-1304915546.file.myqcloud.com/images/20220301/act3.jpg"
 ></v-img>
 
-## 活动现场图片
+## [森林公开课“拯救森林计划”](/de/blogs/202108072200)
 
-<section class="v-imgresponse-2 mb-4">
-  <v-img
-    src="https://img-1304915546.file.myqcloud.com/images/20211014/act3.jpg"
-    :aspect-ratio="4/3"
-    class="rounded-lg mb-4"
-  />
-  <v-img
-    src="https://img-1304915546.file.myqcloud.com/images/20211014/act4.jpg"
-    :aspect-ratio="4/3"
-    class="rounded-lg mb-4"
-  />
-  <v-img
-    src="https://img-1304915546.file.myqcloud.com/images/20211014/act5.jpg"
-    :aspect-ratio="4/3"
-    class="rounded-lg mb-4"
-  />
-  <v-img
-    src="https://img-1304915546.file.myqcloud.com/images/20211014/act6.jpg"
-    :aspect-ratio="4/3"
-    class="rounded-lg mb-4"
-  />
-  <v-img
-    src="https://img-1304915546.file.myqcloud.com/images/20211014/act7.jpg"
-    :aspect-ratio="4/3"
-    class="rounded-lg mb-4"
-  />
-  <v-img
-    src="https://img-1304915546.file.myqcloud.com/images/20211014/act8.jpg"
-    :aspect-ratio="4/3"
-    class="rounded-lg mb-4"
-  />
-  <v-img
-    src="https://img-1304915546.file.myqcloud.com/images/20211014/act9.jpg"
-    :aspect-ratio="4/3"
-    class="rounded-lg mb-4"
-  />
-  <v-img
-    src="https://img-1304915546.file.myqcloud.com/images/20211014/act10.jpg"
-    :aspect-ratio="4/3"
-    class="rounded-lg mb-4"
-  />
-</section>
+<v-img
+  class="mb-4"
+  max-width="300"
+  src="https://img-1304915546.file.myqcloud.com/images/20211014/act1.jpg"
+></v-img>

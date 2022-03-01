@@ -7,10 +7,10 @@ const config = {
   description: 'Deutsch-Chinesischer Förderverein Erlangen e.V.',
   // 导航列表
   navList: [{
-    title: 'Unsere Kurses',
+    title: 'Unsere Kurse',
     url: '/lesson.html'
   }, {
-    title: 'Veranstaltung',
+    title: 'Veranstaltungen',
     url: '/activity.html'
   }, {
     title: 'Kalender',
