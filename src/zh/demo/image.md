@@ -48,6 +48,14 @@
   <img alt="alt文案" src="https://img-1304915546.file.myqcloud.com/images/20210506/100k.jpg"/>
 </div>
 
+横滑大图
+
+<div class="mb-4" style="overflow:auto;">
+  <div class="mb-4" style="min-width: 600px;">
+    <img alt="alt文案" src="https://img-1304915546.file.myqcloud.com/images/20210506/100k.jpg"/>
+  </div>
+</div>
+
 `v-img` 图片组件:
 
 <v-img
