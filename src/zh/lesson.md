@@ -1,14 +1,44 @@
 # 我们的课程
 
-<section class="v-imgresponse-2 mb-4">
+<v-img
+  alt="我们的课程"
+  class="mb-4"
+  max-width="480"
+  src="https://img-1304915546.file.myqcloud.com/images/20221031/ourlessons.jpg"
+></v-img>
+
+## 报名小程序，扫描即可网上报名
+
+<v-img
+  alt="报名小程序"
+  class="mb-4"
+  max-width="360"
+  src="https://img-1304915546.file.myqcloud.com/images/20221031/baoming.jpg"
+></v-img>
+
+## 课程类型
+
+<div class="mb-4" style="overflow:auto;">
+  <div class="mb-4" style="min-width: 800px;">
+    <img alt="起航班" src="https://img-1304915546.file.myqcloud.com/images/20221031/lesson-qihang.png"/>
+  </div>
+</div>
+
+<div class="mb-4" style="overflow:auto;">
+  <div class="mb-4" style="min-width: 800px;">
+    <img alt="杨帆班" src="https://img-1304915546.file.myqcloud.com/images/20221031/lesson-yangfan.png"/>
+  </div>
+</div>
+
+<!-- <section class="v-imgresponse-2 mb-4">
 
 ![alt文案](https://img-1304915546.file.myqcloud.com/images/20220301/lesson1.jpg)
 
 ![alt文案](https://img-1304915546.file.myqcloud.com/images/20220301/lesson2.jpg)
 
-</section>
+</section> -->
 
-## 中文成长班
+<!-- ## 中文成长班
 
 中文成长班（5岁及以上） 每周一次课  每次60分钟  小班课（6-8人）
 
@@ -48,7 +78,7 @@ Chinesisch Kurs für Kinder Stufe 2 (ab 7 Jahre), Kleiner Gruppe (6-8 Teilnehmer
 - 基本要求： 认识和会写一年级上册常用汉字，可以独立熟练阅读上册的课文。书写熟练。掌握汉语拼音。
 - 课程重点：认识550个汉字，会写其中250个。带有感情地朗读课文。在看图写话中运用和阅读生活中学到的词语。根据表达需要，正确使用常用标点符号。
 - 使用教材：部编版《语文》一年级 上册
-- 课程形式：网课（6-8人）有教室即转实体
+- 课程形式：网课（6-8人）有教室即转实体 -->
 
 ## 实体课地址(Kursstandort)
 
