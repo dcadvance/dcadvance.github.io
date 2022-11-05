@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{270:function(n,t,e){"use strict";e.r(t);var o={mounted(){console.log("site info:",this.$site)}},s=e(15),i=Object(s.a)(o,(function(){return(0,this._self._c)("div")}),[],!1,null,null,null);t.default=i.exports}}]);

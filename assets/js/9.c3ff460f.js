@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{275:function(t,s,n){"use strict";n.r(s);var i=n(15),l=Object(i.a)({},(function(){this._self._c;return this._m(0)}),[function(){var t=this._self._c;return t("div",{staticClass:"l-layout"},[t("div",{staticClass:"p-404"},[this._v("\n    custom 404 page\n  ")])])}],!1,null,null,null);s.default=l.exports}}]);
