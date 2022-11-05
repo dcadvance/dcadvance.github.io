@@ -6,6 +6,13 @@
 
 爱城中文学习中心是由埃尔朗根德中促进协会开办的培训机构。主要为在德（纽伦堡大区）内儿童、青少年提供中文和兴趣课程。同时举办中国主题活动、节日庆祝、公开见面会、作品展览、竞赛及假期项目等。
 
+<div class="mb-4" style="overflow:auto;">
+  <div class="mb-4" style="min-width: 800px;">
+    <img alt="理事会成员" src="https://img-1304915546.file.myqcloud.com/images/20221031/%E7%90%86%E4%BA%8B%E4%BC%9A%E6%88%90%E5%91%98.jpg"/>
+  </div>
+</div>
+
+<!-- 
 ## 理事会成员
 
 <section class="v-imgresponse-2 mb-4">
@@ -32,8 +39,15 @@
   <w-business-card
     style="visibility: hidden;"
   ></w-business-card>
-</section>
+</section> -->
 
+<div class="mb-4" style="overflow:auto;">
+  <div class="mb-4" style="min-width: 800px;">
+    <img alt="老师介绍" src="https://img-1304915546.file.myqcloud.com/images/20221031/%E8%80%81%E5%B8%88%E4%BB%8B%E7%BB%8D.jpg"/>
+  </div>
+</div>
+
+<!-- 
 ## 老师介绍
 
 <w-bigbus-card
@@ -56,4 +70,11 @@
   <div>
     <p>女，2005年来德，有两个孩子，现居住在Herzogenaurach。国内财经类本科毕业，在上海工作5年。在德国从事中文教育工作7年时间，一直在埃尔朗根中文学校任教，现任六年级老师。参加过北京外国语学院和教育部中外语言交流中心的教师培训，获得北外大学对外汉语教师资格证书。专注于针对5-12岁孩子的汉语知识教学听说读写等方面技能的细致讲解和练习，秉承因材施教和循序渐进的教学理念。在有效分配教学时间的前提下，结合学生年龄心理特征，开展丰富的教学活动。尊重热爱学生，真诚与学生互动，及时与家长沟通，积极鼓励和肯定学生在完善自我认知，提高学习能力等方面取得的进步。教学工作认真负责，具有较强的班级协调管理能力。</p>
   </div>
-</w-bigbus-card>
+</w-bigbus-card> -->
+
+<div class="mb-4" style="overflow:auto;">
+  <div class="mb-4" style="min-width: 800px;">
+    <img alt="发展历程" src="https://img-1304915546.file.myqcloud.com/images/20221031/%E5%8D%8F%E4%BC%9A%E5%8E%86%E7%A8%8B.jpg"/>
+  </div>
+</div>
+
